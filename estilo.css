@@ -443,6 +443,8 @@ html {
 
 #portfolio .fila .proyecto:hover img {
     filter: grayscale(0);
+    border-radius: 15px 15px 15px 15px;
+
 }
 
 #portfolio .fila .proyecto .info {
