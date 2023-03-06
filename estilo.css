@@ -16,14 +16,14 @@ html {
 /* *********************/
 
 #inicio {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-inicio.jpg");
+    background: linear-gradient(rgba(0, 0, 0, .88), rgba(0, 0, 0, .88)), url("img/inicio.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
 
 #inicio .contenido header {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -41,7 +41,7 @@ html {
 
 #inicio .contenido header .contenido-header h1 {
     text-align: center;
-    color: #ff5080;
+    color: #1111fd;
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -52,14 +52,14 @@ html {
 
 #inicio .contenido header .contenido-header nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     margin: 0 12px;
     font-weight: 400;
     transition: .5s;
 }
 
 #inicio .contenido header .contenido-header nav ul li a:hover {
-    color: #ff5080;
+    color: #3300ff;
 }
 
 #inicio .contenido header .contenido-header .redes a {
@@ -71,11 +71,11 @@ html {
 }
 
 #inicio .contenido header .contenido-header .redes a:hover {
-    color: #ff5080;
+    color: #2222ea;
 }
 
 #inicio .contenido header .contenido-header .seleccionado {
-    color: #ff5080;
+    color: #1f14df;
 }
 
 #inicio .contenido .presentacion {
@@ -103,8 +103,8 @@ html {
 }
 
 #inicio .contenido .presentacion h2 span {
-    font-size: 25px;
-    color: #ff5080;
+    font-size: 30px;
+    color: #3300ffdd;
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -128,7 +128,7 @@ html {
 }
 
 #inicio .contenido .presentacion a:hover {
-    background-color: #ff5080;
+    background-color: #3300ff;
 }
 
 #icono-nav {
@@ -181,7 +181,7 @@ html {
 }
 
 #sobremi .sobremi h2 span {
-    color: #ff5080;
+    color: #0400ed;
 }
 
 #sobremi .sobremi h3 {
@@ -294,7 +294,7 @@ html {
 /* *********************/
 
 .contenedor-skills {
-    background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, 0.8)), url("img/fondo-skills.jpg");
+    background: linear-gradient(#4949cdcc, rgba(33, 16, 16, 0.8)), url("img/fondo-skills.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -533,10 +533,11 @@ html {
 /* *********************/
 
 footer {
-    background-color: #000;
+    background-color: #060072;
     color: #fff;
     text-align: center;
     padding: 30px 0;
+    border-radius: 10px 10px 0 0;
 }
 
 footer a {
