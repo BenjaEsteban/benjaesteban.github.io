@@ -16,7 +16,7 @@ html {
 /* *********************/
 
 #inicio {
-    background: linear-gradient(rgba(0, 0, 0, .88), rgba(0, 0, 0, .88)), url("img/inicio.jpg");
+    background: linear-gradient(rgba(0, 0, 0, .82), rgba(0, 0, 0, .82)), url("img/inicio.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
