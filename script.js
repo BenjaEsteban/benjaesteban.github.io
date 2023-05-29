@@ -25,7 +25,7 @@ function responsiveMenu() {
 }
 
 //detecto el scrolling para aplicar la animación del la barra de habilidades
-window.onscroll = function() { efectoHabilidades() };
+window.onscroll = () => { efectoHabilidades() };
 
 //funcion que aplica la animación de la barra de habilidades
 function efectoHabilidades() {
@@ -37,5 +37,4 @@ function efectoHabilidades() {
         document.getElementById("bd").classList.add("barra-progreso3");
         document.getElementById("ps").classList.add("barra-progreso4");
     }
-
 }

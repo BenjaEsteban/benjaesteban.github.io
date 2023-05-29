@@ -15,15 +15,41 @@ html {
 /* seccion I N I C I O */
 /* *********************/
 
+
+.bg {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-25deg, white 50%, #000000bc 50%);
+    bottom: 0;
+    left: -100%;
+    opacity: .5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+}
+
+.bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+}
+
+.bg3 {
+    animation-duration: 5s;
+}
+
+h1 {
+    font-family: monospace;
+}
+
 #inicio {
-    background: linear-gradient(rgba(0, 0, 0, .82), rgba(0, 0, 0, .82)), url("img/inicio.jpg");
+    /* background: linear-gradient(rgba(0, 0, 0, .82), rgba(0, 0, 0, .82)), url("img/inicio.jpg");  */
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
 
 #inicio .contenido header {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(255, 255, 255, .8);
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -41,7 +67,7 @@ html {
 
 #inicio .contenido header .contenido-header h1 {
     text-align: center;
-    color: #1111fd;
+    color: #015198;
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -52,37 +78,38 @@ html {
 
 #inicio .contenido header .contenido-header nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     margin: 0 12px;
     font-weight: 400;
     transition: .5s;
 }
 
 #inicio .contenido header .contenido-header nav ul li a:hover {
-    color: #3300ff;
+    color: #000000;
 }
 
 #inicio .contenido header .contenido-header .redes a {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     display: inline-block;
     margin-left: 10px;
     transition: .5s;
 }
 
 #inicio .contenido header .contenido-header .redes a:hover {
-    color: #2222ea;
+    color: #015198;
 }
 
 #inicio .contenido header .contenido-header .seleccionado {
-    color: #1f14df;
+    color: #015198;
+    font-weight: bold;
 }
 
 #inicio .contenido .presentacion {
     max-width: 1100px;
     height: 100vh;
     margin: auto;
-    color: #fff;
+    color: #000000;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,16 +175,38 @@ html {
     display: flex;
 }
 
-#sobremi .contenedor-foto {
+/* #sobremi .contenedor-foto {
     max-width: 400px;
-    margin-right: 80px;
+    margin-right: 80px; 
+} */
+
+#sobremi .contenedor-foto,
+.sobremi .content{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
 }
 
-#sobremi .contenedor-foto img {
-    padding: 20px;
+.contenedor-foto img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .contenedor-foto img {
     width: 100%;
-    border-radius: 20px;
-    background-color: #f3f3f3;
+} */
+
+.sobremi .content {
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 4em;
+    box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    left: 55%;
+    text-align: center;
+    padding: 4vmin;
+    position: relative;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #sobremi .sobremi {
@@ -173,15 +222,16 @@ html {
     text-decoration-thickness: 5px;
 }
 
-#sobremi .sobremi h2 {
+#sobremi .sobremi h3 {
     font-size: 34px;
     font-weight: bold;
     margin: 20px 0;
     letter-spacing: 2px;
 }
 
-#sobremi .sobremi h2 span {
-    color: #0400ed;
+#sobremi .sobremi h3 span {
+    color: #015198;
+    font-weight: bold;
 }
 
 #sobremi .sobremi h3 {
@@ -197,9 +247,10 @@ html {
     line-height: 25px;
     color: #565656;
     margin-bottom: 12px;
+    margin-top: 10px;
 }
 
-#sobremi .sobremi a {
+/* #sobremi .sobremi a {
     display: inline-block;
     text-decoration: none;
     color: #000;
@@ -208,12 +259,12 @@ html {
     padding: 10px 20px;
     margin-top: 30px;
     transition: .5s;
-}
+} */
 
-#sobremi .sobremi a:hover {
-    background-color: #ff5080;
+/* #sobremi .sobremi a:hover {
+    background-color: #060165;
     color: #fff;
-}
+} */
 
 /* *********************/
 /* seccion S E R V I C I O S */
@@ -222,7 +273,7 @@ html {
 #servicios {
     padding: 100px 15px;
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: white;
 }
 
 #servicios .titulo-seccion {
@@ -244,7 +295,7 @@ html {
 
 #servicios .fila .servicio {
     max-width: 350px;
-    background-color: #fff;
+    background-color: #b5b5b5;
     padding: 30px;
     margin: 0 5px;
     border-radius: 5px;
@@ -260,7 +311,7 @@ html {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #d3d3d3;
+    background-color: white;
     padding: 20px;
     margin-bottom: 25px;
 }
@@ -397,6 +448,15 @@ html {
     }
 }
 
+@keyframes slide {
+    0% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(25%);
+    }
+}
 /* *********************/
 /* seccion P O R T F O L I O */
 /* *********************/
@@ -535,7 +595,7 @@ html {
 /* *********************/
 
 footer {
-    background-color: #060072;
+    background-color: #015198;
     color: #fff;
     text-align: center;
     padding: 30px 0;
@@ -591,30 +651,48 @@ footer a {
     }
 
     /* seccion SOBRE MI */
-    #sobremi {
+    /* #sobremi {
         padding: 50px 0;
         display: block;
     }
 
-    #sobremi .contenedor-foto {
+    #sobremi .contenedor-foto .content{
         max-width: 200px;
         margin: auto;
     }
 
     #sobremi .contenedor-foto img {
         padding: 8px;
+    } */
+
+    #sobremi {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sobremi .contenedor-foto {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    #sobremi .sobremi{
+        position: relative;
+        right: 4%;
+        top: 100%;
+        text-align: center;
     }
 
     #sobremi .sobremi .titulo-seccion {
         text-align: center;
     }
 
-    #sobremi .sobremi h2 {
+    #sobremi .sobremi h3 {
         font-size: 25px;
         text-align: center;
     }
 
     /* seccion MIS SERVICIOS */
+
     #servicios {
         padding: 50px 15px;
     }
