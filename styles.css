@@ -70,9 +70,9 @@ h1 {
 }
 
 #inicio .contenido header .contenido-header h1 {
-
     text-align: center;
     color: var(--blue-color);
+    
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -85,24 +85,24 @@ h1 {
     text-decoration: none;
     color: #000000;
     margin: 0 12px;
-    font-weight: 400px;
+    font-weight: 600px;
     transition: .5s;
 }
 
 #inicio .contenido header .contenido-header nav ul li a:hover {
-    color: #000000;
+    color: var(--blue-color);
 }
 
 #inicio .contenido header .contenido-header .redes a {
     text-decoration: none;
     color: #000000;
+    font-size: 20px;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
     transition: .5s;
 }
 
 #inicio .contenido header .contenido-header .redes a:hover {
-    font-weight: bold;
     color: var(--blue-color);
 }
 
@@ -137,7 +137,7 @@ h1 {
 
 #inicio .contenido .presentacion h2 span {
     font-size: 30px;
-    color: #3300ffdd;
+    color: var(--blue-color);
 }
 
 #inicio .contenido .presentacion .descripcion {
@@ -161,7 +161,7 @@ h1 {
 }
 
 #inicio .contenido .presentacion a:hover {
-    background-color: #3300ff;
+    background-color: var(--blue-color);
 }
 
 #icono-nav {
