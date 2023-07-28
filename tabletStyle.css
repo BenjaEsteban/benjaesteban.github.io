@@ -1,4 +1,8 @@
 
+#inicio {
+    height: auto;
+}
+
 .redes {
     display: none;
 }
@@ -48,6 +52,14 @@ nav.responsive ul li {
     margin-bottom: 20px;
     position: relative;
     bottom: 20px;
+}
+
+#sobremi .contenedor-foto img:first-child {
+    bottom: 30px;
+}
+
+#sobremi .contenedor-foto img:last-child {
+    bottom: 10px;
 }
 
 #sobremi .sobremi{
@@ -107,6 +119,10 @@ nav.responsive ul li {
 
 #portfolio .fila .proyecto {
     margin: 10px auto;
+}
+
+#portfolio .fila .proyecto .info button {
+    color: white;
 }
 
 /* seccion CONTACTO */

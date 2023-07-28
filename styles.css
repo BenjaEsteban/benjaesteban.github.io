@@ -117,10 +117,10 @@ h1 {
     padding: 10px 20px;
 }
 
-#inicio .contenido header .contenido-header h1 {
+#inicio .contenido header .contenido-header img {
     text-align: center;
-    color: var(--blue-color);
-
+    width: 200px;
+    height: 44px;
 }
 
 #inicio .contenido header .contenido-header nav ul {
@@ -280,30 +280,20 @@ h1 {
     height: auto;
     position: relative;
     max-width: 100%;
-    height: auto;
-    bottom: 30px;
+    bottom: 80px;
 }
 
 #sobremi .contenedor-foto img:last-child {
     position: absolute;
     width: 100%;
     height: auto;
-    bottom: 0;
+    bottom: 45px;
     left: 0;
     right: 0;
     margin: auto;
-    /* transform: translate(25%); */
     transition: .3s ease;
     opacity: 0;
 }
-
-/* #sobremi .contenedor-foto:hover {
-    transform: 
-        perspective(250px)
-        rotateX(10deg)
-        translateY(-5%)
-        translateZ(0);
-} */
 
 #sobremi .contenedor-foto::before {
     content: '';
@@ -327,11 +317,9 @@ h1 {
     opacity: 0;
 }
 
-
 #sobremi .sobremi {
     background-color: rgba(255, 255, 255, .8);
     max-width: 500px;
-    padding: 0 10px;
     border-radius: 4em;
     box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
     text-align: center;
@@ -675,7 +663,7 @@ h1 {
     border-radius: 0.8em;
     border: none;
     background: var(--blue-color);
-    color: #98c3b7;
+    color: white;
     transition: all 0.2s ease;
     overflow: hidden;
 }
@@ -700,7 +688,6 @@ h1 {
 }
 
 #portfolio .fila .proyecto .info button:hover {
-    color: white;
     background: var(--blue-color);
     box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
 }
@@ -711,50 +698,15 @@ h1 {
 }
 
 /* *********************/
-/* seccion C O N T A C T O */
+/* seccion C U R S O S */
 /* *********************/
 
-#contacto {
+#cursos {
     padding: 100px 15px;
     background-color: white;
 }
 
-#contacto .titulo-seccion {
-    color: var(--blue-color);
-    margin-bottom: 20px;
-}
-
-#contacto .contenedor-form {
-    max-width: 1100px;
-    margin: auto;
-}
-
-#contacto .contenedor-form .fila {
-    margin-bottom: 15px;
-}
-
-#contacto .contenedor-form .mitad {
-    display: flex;
-    justify-content: space-between;
-}
-
-#contacto .contenedor-form input,
-#contacto .contenedor-form textarea {
-    padding: 20px;
-    border-radius: 20px;
-    border: none;
-    border: 1px solid #919191;
-}
-
-#contacto .contenedor-form .mitad input {
-    width: 48%;
-}
-
-#contacto .contenedor-form .input-full {
-    width: 100%;
-}
-
-#contacto .titulo-seccion {
+#cursos .titulo-seccion {
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
@@ -764,7 +716,87 @@ h1 {
     text-decoration-thickness: 5px;
 }
 
-#contacto .btn-enviar {
+#cursos .contenedor-form {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+}
+
+#cursos .contenedor-form .cursos-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+#cursos .contenedor-form .cursos-section ul{
+    list-style: none;
+
+}
+
+#cursos .contenedor-form .cursos-section .lista-cursos-section {
+    padding: 0;
+}
+
+#cursos .contenedor-form .cursos-section .lista-cursos-section li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#cursos .contenedor-form .cursos-section .lista-cursos-section li img {
+    max-width: 8%;
+    margin-right: 10px;
+}
+
+#cursos .contenedor-form .cursos-section .lista-cursos-section li a {
+    text-decoration: none;
+}
+
+#cursos .contenedor-form .cursos-section .lista-cursos-section li p {
+    margin: 0;
+}
+
+#cursos .contenedor-form .emoji-section {
+    text-align: center;
+}
+
+#cursos .contenedor-form .emoji-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*
+
+#cursos .contenedor-form .fila {
+    margin-bottom: 15px;
+}
+
+
+#cursos .contenedor-form .mitad {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cursos .contenedor-form input,
+#cursos .contenedor-form textarea {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #919191;
+}
+
+#cursos .contenedor-form .mitad input {
+    width: 48%;
+}
+
+#cursos .contenedor-form .input-full {
+    width: 100%;
+}
+
+
+#cursos .btn-enviar {
     display: block;
     margin: auto;
     cursor: pointer;
@@ -772,10 +804,10 @@ h1 {
     padding: 10px 15px !important;
 }
 
-#contacto .btn-enviar:hover {
+#cursos .btn-enviar:hover {
     background-color: var(--blue-color);
     color: #fff;
-}
+} */
 
 /* *********************/
 /* seccion F O O T E R */

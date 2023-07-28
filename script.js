@@ -1,17 +1,13 @@
 
-// const modoOscuro = document.querySelector('.btn-mode-night')
-
-// modoOscuro.addEventListener('click', () => {
-//     document.body.classList.toggle('dark')
-//     modoOscuro.classList.toggle('active')
-// })
-
-
-// Animacion de menú hamburguesa
+// Animación de menú hamburguesa
 const animacionButton = document.querySelector('.nav-button')
 var linea1 = document.querySelector('.nav-button-line-1')
 var linea2 = document.querySelector('.nav-button-line-2')
 var linea3 = document.querySelector('.nav-button-line-3')
+
+// Emojis de Inicio
+const pcImagen = document.querySelector('.pc-emoji')
+const guinoImagen = document.querySelector('.guino-emoji')
 
 animacionButton.addEventListener("click", () => {
     linea1.classList.toggle("transformation-line-1")
@@ -29,10 +25,12 @@ function seleccionar(link) {
     opciones[3].className = ""
     link.className = "seleccionado"
 
-    //Hacemos desaparecer el menu una vez que se ha seleccionado una opcion
-    //en modo responsive
-    // var x = document.getElementById("nav")
-    // x.className = ""
+    // Hacemos desaparecer el menu una vez que se ha seleccionado una opcion en modo responsive
+    var x = document.getElementById("nav")
+    x.className = ""
+    linea1.classList.toggle("transformation-line-1")
+    linea2.classList.toggle("transformation-line-2")
+    linea3.classList.toggle("transformation-line-3")
 }
 
 //función que muestra el menu responsive
@@ -45,7 +43,7 @@ function responsiveMenu() {
     }
 }
 
-//detecto el scrolling para aplicar la animación del la barra de habilidades
+//Detección de la posición de la barra de habilidades y aplicación de la animación de la barra de habilidades
 window.onscroll = () => { efectoHabilidades() }
 
 //funcion que aplica la animación de la barra de habilidades

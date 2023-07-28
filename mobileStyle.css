@@ -1,4 +1,9 @@
 
+#inicio {
+    height: auto;
+    width: auto;
+}
+
 .redes {
     display: none;
 }
@@ -13,7 +18,7 @@ nav.responsive {
     border-radius: 20px;
     width: 100%;
     position: absolute;
-    top: 58px;
+    top: 66px;
     left: 0;
     padding: 10px 0;
 }
@@ -51,6 +56,14 @@ nav.responsive ul li {
     margin-bottom: 20px;
     position: relative;
     bottom: 20px;
+}
+
+#sobremi .contenedor-foto img:first-child {
+    bottom: 30px;
+}
+
+#sobremi .contenedor-foto img:last-child {
+    bottom: 10px;
 }
 
 #sobremi .sobremi{
@@ -108,8 +121,14 @@ nav.responsive ul li {
     display: block;
 }
 
+
 #portfolio .fila .proyecto {
     margin: 10px auto;
+    overflow: hidden;
 }
 
 
+
+#portfolio .fila .proyecto .info button {
+    color: white;
+}

@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" href="img/saludoEmoji.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mobileStyle.css" media="(max-width: 600px)">
     <link rel="stylesheet" href="tabletStyle.css" media="(max-width: 800px) and (min-width: 601px)">
@@ -16,22 +18,27 @@
 
 <body>
 
+    <!-- EFECTOS DE FONDO -->
+
     <div class="bg"></div>
     <div class="bg bg2"></div>
     <div class="bg bg3"></div>
+
     <!-- SECCION I N I C I O -->
+
     <section id="inicio">
         <div class="contenido">
             <header>
                 <div class="contenido-header">
-                    <h1>Benjam&iacute;n's</h1>
+                    <a href="#inicio"><img src="img/logo.png" alt="Logo Benjamins"></a>
                     <nav id="nav" class="">
                         <ul id="links">
                             <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
                             <!-- <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li> -->
                             <li><a href="#servicios" onclick="seleccionar(this)">EXPERIENCIA</a></li>
                             <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
-                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            <li><a href="#cursos" onclick="seleccionar(this)">CURSOS</a></li>
+                            <!-- <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li> -->
                             <!-- <button class="btn-mode-night">
                                 <span><i class="fa-regular fa-sun"></i></span>
                                 <span><i class="fa-solid fa-moon"></i></span>
@@ -41,7 +48,6 @@
 
                     <!-- Icono del menu responsive  -->
                     <div id="icono-nav" onclick="responsiveMenu()">
-                        <!-- <i class="fa-solid fa-bars"></i> -->
                         <button class="nav-button">
                             <div class="nav-button-line-1"></div>
                             <div class="nav-button-line-2"></div>
@@ -63,27 +69,26 @@
             <!-- SECCION S O B R E M I -->
             <section id="sobremi">
                 <article class="contenedor-foto">
-                    <img src="img/pcEmoji.png" alt="">
-                    <img src="img/guinoEmoji.png" alt="">
+                    <img class="pc-emoji" src="img/pcEmoji.png" alt="Computer Emoji">
+                    <img class="guino-emoji" src="img/guinoEmoji.png" alt="Hello Emoji">
                 </article>
 
                 <div class="sobremi">
                     <!-- <div class="content"> -->
                     <h3> Hola!, Soy <span>Benjam&iacute;n Rodr&iacute;guez</span> </h3>
                     <h4> Estudiante de Ingenier&iacute;a Civil Inform&aacute;tica </h4>
-                    <p>Apasionado por las tecnologías y comprometido con mi formaci&oacute;n profesional,
-                        buscando constantemente oportunidades para aprender y mejorar mis habilidades.
-                        Mi enfoque profesional se basa en la pasión, el compromiso y la búsqueda constante
-                        de la excelencia en el campo de TI.
+                    <p>Comprometido con mi formación y en constante búsqueda de oportunidades para crecer y aprender.
+                        Creo en la importancia de la pasión, el trabajo en equipo y la colaboración en el campo de TI.
+                        Aspiro a contribuir significativamente al avance tecnológico.
                     </p>
                     <!-- <a href="#">Descargar CV</a> -->
                 </div>
             </section>
-
         </div>
     </section>
 
     <!-- SECCION S E R V I C I O S -->
+
     <section id="servicios">
         <h3 class="titulo-seccion">Experiencia Universitaria</h3>
         <div class="fila">
@@ -262,7 +267,7 @@
 
                 <img src="./img/qr_generator.png" alt="Web QR Generator">
                 <div class="info">
-                    <h4>Generador de c&oacute;digos QR a partir de un link o palabra</h4>
+                    <h4>Generador de c&oacute;digos QR a partir de una URL o String</h4>
                     <p>JavaScript</p>
                     <a href="https://benjaesteban.github.io/QR-Generator/"><button> <span></span> P&aacute;gina web</button></a>
                     <a href="https://github.com/BenjaEsteban/QR-Generator"><button> <span></span> C&oacute;digo</button></a>
@@ -275,7 +280,7 @@
 
                 <img src="./img/async_landing.png" alt="">
                 <div class="info">
-                    <h4>Información de los planetas del sistema solar</h4>
+                    <h4>Información de los planetas del Sistema Solar</h4>
                     <p>JavaScript Asincron&iacute;smo</p>
                     <a href="https://benjaesteban.github.io/Async-landing/"><button> <span></span> P&aacute;gina web</button></a>
                     <a href="https://github.com/BenjaEsteban/Async-landing"><button> <span></span> C&oacute;digo</button></a>
@@ -305,25 +310,41 @@
         </div>
     </section>
 
-    <!-- SECCTION C O N T A C T O -->
-    <section id="contacto">
-        <h3 class="titulo-seccion">Contactanos ahora</h3>
+    <!-- SECCTION C E R T I F I C A D O S -->
+    <section id="cursos">
+        <h3 class="titulo-seccion">Cursos realizados</h3>
         <div class="contenedor-form">
-            <form action="">
-                <div class="fila mitad">
-                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
-                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
-                </div>
-                <div class="fila">
-                    <input type="text" placeholder="Tema..." class="input-full">
-                </div>
-                <div class="fila">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
-                        class="input-full"></textarea>
-                </div>
-
-                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
-            </form>
+            <section class="emoji-section">
+                <img src="img/ideaEmoji.png" alt="Emoji de idea brillante">
+            </section>
+            <section class="cursos-section">
+                <ul class="lista-cursos-section">
+                    <li>
+                        <img src="img/reactCourse.png" alt="">
+                        <a href=""><p>Curso de React.js</p></a>
+                    </li>
+                    <li>
+                        <img src="img/githubCourse.png" alt="">
+                        <a href=""><p>Curso Profesional de Git y GitHub</p></a>
+                    </li>
+                    <li>
+                        <img src="img/practicHtmlCss.png" alt="">
+                        <a href=""><p>Curso Pr&aacute;ctico de HTML y CSS</p></a>
+                    </li>
+                    <li>
+                        <img src="img/patronesCourse.png" alt="">
+                        <a href=""><p>Curso de Introducci&oacute;n a los Patrones de Diseño de Software</p></a>
+                    </li>
+                    <li>
+                        <img src="img/javaScriptPractic.png" alt="">
+                        <a href=""><p>Curso de Asincron&iacute;smo con JavaScript</p></a>
+                    </li>
+                    <li>
+                        <img src="img/dockerCourse.png" alt="">
+                        <a href=""><p>Curso de Docker</p></a>
+                    </li>
+                </ul>
+            </section>
         </div>
     </section>
 
@@ -344,3 +365,22 @@
 </body>
 
 </html>
+
+
+<!-- seccion de contacto -->
+
+<!-- <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form> -->
