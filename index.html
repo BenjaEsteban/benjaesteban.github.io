@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" type="image/png" href="img/saludoEmoji.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobileStyle.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="tabletStyle.css" media="(max-width: 800px) and (min-width: 601px)">
+    <title>Benjamin's Page</title>
+</head>
+
+<body>
+
+    <!-- EFECTOS DE FONDO -->
+
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+    <!-- SECCION I N I C I O -->
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <a href="#inicio"><img src="img/logo.png" alt="Logo Benjamins"></a>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <!-- <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li> -->
+                            <li><a href="#servicios" onclick="seleccionar(this)">EXPERIENCIA</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#cursos" onclick="seleccionar(this)">CURSOS</a></li>
+                            <!-- <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li> -->
+                            <!-- <button class="btn-mode-night">
+                                <span><i class="fa-regular fa-sun"></i></span>
+                                <span><i class="fa-solid fa-moon"></i></span>
+                            </button> -->
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive  -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <button class="nav-button">
+                            <div class="nav-button-line-1"></div>
+                            <div class="nav-button-line-2"></div>
+                            <div class="nav-button-line-3"></div>
+                        </button>
+                    </div>
+
+                    <div id="iconos" class="redes">
+                        <a
+                            href="https://www.linkedin.com/in/benjam%C3%ADn-rodr%C3%ADguez-valenzuela-a86685206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAuROqqhrSaGqZoZG6pZ0ug%3D%3D"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/BenjaEsteban"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/benja_3steban/"><i
+                                class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- SECCION S O B R E M I -->
+            <section id="sobremi">
+                <article class="contenedor-foto">
+                    <img class="pc-emoji" src="img/pcEmoji.png" alt="Computer Emoji">
+                    <img class="guino-emoji" src="img/guinoEmoji.png" alt="Hello Emoji">
+                </article>
+
+                <div class="intro-container">
+                    <article class="sobremi">
+                        <!-- <div class="content"> -->
+                        <h3> Hola!, Soy <span>Benjam&iacute;n Rodr&iacute;guez</span> </h3>
+                        <h4> Estudiante de Ingenier&iacute;a Civil Inform&aacute;tica </h4>
+                        <p>Ansioso de conocimiento y apasionado por el desarrollo Web y 
+                            el desarrollo iOS, siempre listo para aprender y crecer en estas áreas fascinantes.
+                        </p>
+
+                    </article>
+                    <div class="intro-iconos">
+                        <div class="icon-container">
+                            <a
+                                href="https://www.linkedin.com/in/benjam%C3%ADn-rodr%C3%ADguez-valenzuela-a86685206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAuROqqhrSaGqZoZG6pZ0ug%3D%3D"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+
+                        <div class="icon-container">
+                            <a href="https://github.com/BenjaEsteban"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        
+                        <div class="icon-container">
+                            <a href="https://www.instagram.com/benja_3steban/"><i
+                                    class="fa-brands fa-instagram-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">Experiencia Universitaria</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web con HTML & CSS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
+                <p>Desarrollo de proyectos universitarios
+                    y personales con enfoque "Mobile First" y énfasis en la
+                    correcta semántica y optimización web.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-react"></i></span>
+                <h4>Desarrollo con React</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>JS XML</li>
+                    <li>Tailwind</li>
+                    <li>Vite.js</li>
+                </ul>
+                <p>Desarrollo de proyectos personales con React utilizando Vite.js y Tailwind CSS.
+                    Algunos ejemplos incluyen la creación de un Task Manager y un E-commerce
+                    con integración de API de prueba.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-node-js"></i></span>
+                <h4>Desarrollo con NodeJS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>API REST</li>
+                    <li>JavaScript</li>
+                    <li>DataBase</li>
+                </ul>
+                <p>Experiencia en el desarrollo de BackEnd con Node, aplicando operaciones CRUD
+                    completas y estableciendo la conexión a través de API REST.
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-python"></i></span>
+                <h4>Programaci&oacute;n con Python</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>POO</li>
+                    <li>Python</li>
+                    <li>Machine Learning</li>
+                </ul>
+                <p>Experiencia en el desarrollo de algoritmos y programación
+                    de redes neuronales para la implementación de modelos de
+                    inteligencia artificial.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-apple"></i></span>
+                <h4>Desarrollado IOS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Swift</li>
+                    <li>Xcode</li>
+                    <li>POO</li>
+                </ul>
+                <p>Experiencia inicial en el desarrollo móvil con Swift,
+                    aplicando conocimientos en la creación de un proyecto
+                    que replica la calculadora del iPhone.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i <i class="fa-solid fa-database"></i></span>
+                <h4>Desarrollo de Bases de datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>SQL</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                </ul>
+                <p>Experiencia en programación en SQL y
+                    un gran dominio en el modelamiento y creación de bases de datos,
+                    tanto relacionales como no relacionales
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <section class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>HTML & CSS</p>
+                <span class="porcentaje">75%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>JavaScript</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>SQL</p>
+                <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Python</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Swift</p>
+                <span class="porcentaje">65%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="swift"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+
+                <img src="./img/bitcoin.png" alt="Web de Bitcoin-Page">
+                <div class="info">
+                    <h4>Modelo de página web orientado a la compra y
+                        venta de Criptomonedas</h4>
+                    <p>HTML & CSS</p>
+                    <a href="https://benjaesteban.github.io/Bitcoin-Page/"><button> <span></span> P&aacute;gina
+                            web</button></a>
+                    <a href="https://github.com/BenjaEsteban/Bitcoin-Page"><button> <span></span>
+                            C&oacute;digo</button></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+
+                <img src="./img/task_manager.png" alt="Web Task Manager">
+                <div class="info">
+                    <h4>Herramienta para gestionar tareas personales</h4>
+                    <p>React & Vite.js</p>
+                    <a href="https://benjaesteban.github.io/Task-manager-with-React/"><button> <span></span>
+                            P&aacute;gina web</button></a>
+                    <a href="https://github.com/BenjaEsteban/Task-manager-with-React"><button> <span></span>
+                            C&oacute;digo</button></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+
+                <img src="./img/qr_generator.png" alt="Web QR Generator">
+                <div class="info">
+                    <h4>Generador de c&oacute;digos QR a partir de una URL o String</h4>
+                    <p>JavaScript</p>
+                    <a href="https://benjaesteban.github.io/QR-Generator/"><button> <span></span> P&aacute;gina
+                            web</button></a>
+                    <a href="https://github.com/BenjaEsteban/QR-Generator"><button> <span></span>
+                            C&oacute;digo</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+
+                <img src="./img/async_landing.png" alt="">
+                <div class="info">
+                    <h4>Información de los planetas del Sistema Solar</h4>
+                    <p>JavaScript Asincron&iacute;smo</p>
+                    <a href="https://benjaesteban.github.io/Async-landing/"><button> <span></span> P&aacute;gina
+                            web</button></a>
+                    <a href="https://github.com/BenjaEsteban/Async-landing"><button> <span></span>
+                            C&oacute;digo</button></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+
+                <img src="./img/javascript_game.png" alt="Juego hecho con JavaScript">
+                <div class="info">
+                    <h4>Pequeño juego de laberintos</h4>
+                    <p>JavaScript, HTML & CSS</p>
+                    <a href="https://benjaesteban.github.io/JavaScript-Game/"><button> <span></span> P&aacute;gina
+                            web</button></a>
+                    <a href="https://github.com/BenjaEsteban/JavaScript-Game"><button> <span></span>
+                            C&oacute;digo</button></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./img/backend.png" alt="Proyecto BackEnd">
+
+                <div class="info">
+                    <h4>Servidor de un sistema de evidencias universitaria</h4>
+                    <p>NodeJS ExpressJS</p>
+                    <a href="https://github.com/BenjaEsteban/Proyecto-Acre-Version-Servidor"><button> <span></span>
+                            C&oacute;digo</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C E R T I F I C A D O S -->
+    <section id="cursos">
+        <h3 class="titulo-seccion">Cursos realizados</h3>
+        <div class="contenedor-form">
+            <section class="emoji-section">
+                <img src="img/ideaEmoji.png" alt="Emoji de idea brillante">
+            </section>
+            <section class="cursos-section">
+                <ul class="lista-cursos-section">
+                    <h3>Platzi Academy 📚:</h3>
+                    <li>
+                        <img src="img/reactCourse.png" alt="">
+                        <a href="https://platzi.com/p/Benjamin_Esteban/curso/7395-react/diploma/detalle/">
+                            <p>Curso de React.js</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="img/githubCourse.png" alt="">
+                        <a href="https://platzi.com/p/Benjamin_Esteban/curso/1557-course/diploma/detalle/">
+                            <p>Curso Profesional de Git y GitHub</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="img/practicHtmlCss.png" alt="">
+                        <a href="https://platzi.com/p/Benjamin_Esteban/curso/1758-course/diploma/detalle/">
+                            <p>Curso Pr&aacute;ctico de HTML y CSS</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="img/patronesCourse.png" alt="">
+                        <a href="https://platzi.com/p/Benjamin_Esteban/curso/6735-patrones-diseno-software/diploma/detalle/">
+                            <p>Curso de Introducci&oacute;n a los Patrones de Diseño de Software</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="img/asincronismo.png" alt="">
+                        <a href="https://platzi.com/p/Benjamin_Esteban/curso/3175-asincronismo-js/diploma/detalle/">
+                            <p>Curso de Asincron&iacute;smo con JavaScript</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="img/dockerCourse.png" alt="">
+                        <a href="https://platzi.com/p/Benjamin_Esteban/curso/2066-docker/diploma/detalle/">
+                            <p>Curso de Docker</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="img/expreRegulares.png" alt="">
+                        <a href="https://platzi.com/p/Benjamin_Esteban/curso/1301-course/diploma/detalle/">
+                            <p>Curso de Expresiones Regulares</p>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="img/javaScriptPractic.png" alt="">
+                        <a href="https://platzi.com/p/Benjamin_Esteban/curso/3271-course/diploma/detalle/">
+                            <p>Curso Pr&aacute;ctico de JavaScript</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a
+                href="https://www.linkedin.com/in/benjam%C3%ADn-rodr%C3%ADguez-valenzuela-a86685206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAuROqqhrSaGqZoZG6pZ0ug%3D%3D"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/BenjaEsteban"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/benja_3steban/"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- seccion de contacto -->
+
+<!-- <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form> -->
