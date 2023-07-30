@@ -1,6 +1,11 @@
 
 #inicio {
-    height: auto;
+    height: 100%;
+}
+
+#inicio .contenido header .contenido-header img {
+    width: 140px;
+    height: 35px;
 }
 
 .redes {
@@ -63,11 +68,9 @@ nav.responsive ul li {
 }
 
 #sobremi .sobremi{
-    width: 90%;
-    display: inline;
     height: auto;
     position: relative;
-    bottom: 70px;
+    margin: 0;
 }
 
 #sobremi .sobremi .titulo-seccion {
@@ -87,6 +90,11 @@ nav.responsive ul li {
 #sobremi .sobremi p {
     font-size: 12px;
     text-align: center;
+}
+
+#sobremi .intro-container {
+    position: relative;
+    bottom: 70px;
 }
 
 /* seccion MIS SERVICIOS */

@@ -14,11 +14,12 @@ nav {
 
 nav.responsive {
     display: block;
-    background-color: rgba(255, 255, 255, .8);
-    border-radius: 20px;
+    /* background-color: rgba(255, 255, 255, .8); */
+    background: white;
+    border-radius: 0 0 10px 10px;
     width: 100%;
     position: absolute;
-    top: 66px;
+    top: 60px;
     left: 0;
     padding: 10px 0;
 }
@@ -40,15 +41,20 @@ nav.responsive ul li {
     color: var(--blue-color);
 }
 
-
-
 #inicio .contenido .presentacion h2 {
     font-size: 40px;
 }
 
+#inicio .contenido header .contenido-header img {
+    width: 140px;
+    height: 35px;
+}
+
 #sobremi {
-    flex-direction: column;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #sobremi .contenedor-foto {
@@ -59,19 +65,22 @@ nav.responsive ul li {
 }
 
 #sobremi .contenedor-foto img:first-child {
-    bottom: 30px;
+    bottom: 40px;
 }
 
 #sobremi .contenedor-foto img:last-child {
-    bottom: 10px;
+    bottom: 34px;
 }
 
 #sobremi .sobremi{
-    width: 100%;
-    display: inline;
     height: auto;
     position: relative;
-    bottom: 70px;
+    margin: 0;
+}
+
+#sobremi .intro-container {
+    position: relative;
+    bottom: 82px;
 }
 
 #sobremi .sobremi .titulo-seccion {
@@ -121,14 +130,32 @@ nav.responsive ul li {
     display: block;
 }
 
-
 #portfolio .fila .proyecto {
     margin: 10px auto;
     overflow: hidden;
 }
 
-
-
 #portfolio .fila .proyecto .info button {
     color: white;
+}
+
+/* seccion PORTFOLIO */
+
+#cursos .contenedor-form .emoji-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cursos .contenedor-form .cursos-section {
+    margin-top: 50px;
+    padding: 0;
+}
+
+#cursos .contenedor-form .cursos-section .lista-cursos-section li p {
+    font-size: 12px;
+}
+
+#cursos .contenedor-form .emoji-section img {
+    display: none;
 }

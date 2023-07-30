@@ -321,7 +321,7 @@ h1 {
     background-color: rgba(255, 255, 255, .8);
     max-width: 500px;
     border-radius: 4em;
-    box-shadow: 0 0 .25em rgba(0, 0, 0, .25);
+    box-shadow: 0 0 .95em rgba(0, 0, 0, .35);
     text-align: center;
     padding: 4vmin;
     margin: 0 40px;
@@ -362,6 +362,42 @@ h1 {
     color: #565656;
     margin-bottom: 12px;
     margin-top: 10px;
+}
+
+#sobremi .intro-container .intro-iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 20px;
+}
+
+#sobremi .intro-container .intro-iconos .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.1s;
+}
+
+#sobremi .intro-container .intro-iconos .icon-container:hover {
+    transform: scale(1.1);
+}
+
+#sobremi .intro-container .intro-iconos .icon-container:hover i {
+    color: var(--blue-color);
+}
+
+#sobremi .intro-container .intro-iconos .icon-container i {
+    color: black;
+}
+
+#sobremi .intro-container .intro-iconos .icon-container a i {
+    font-size: 24px;
 }
 
 /* #sobremi .sobremi a {
@@ -727,6 +763,7 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 2%;
+    margin-left: 60px;
 }
 
 #cursos .contenedor-form .cursos-section ul{
@@ -742,6 +779,11 @@ h1 {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+#cursos .contenedor-form .cursos-section .lista-cursos-section li:hover {
+    transform: scale(1.1);
 }
 
 #cursos .contenedor-form .cursos-section .lista-cursos-section li img {
@@ -755,15 +797,30 @@ h1 {
 
 #cursos .contenedor-form .cursos-section .lista-cursos-section li p {
     margin: 0;
+    color: black;
+}
+
+#cursos .contenedor-form .cursos-section .lista-cursos-section h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 20px;
 }
 
 #cursos .contenedor-form .emoji-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    transition: transform 0.5s;
 }
 
 #cursos .contenedor-form .emoji-section img {
     max-width: 100%;
     height: auto;
+}
+
+#cursos .contenedor-form .emoji-section:hover{
+    transform: scale(1.1);
 }
 
 
