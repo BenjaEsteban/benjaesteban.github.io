@@ -417,6 +417,16 @@ h1 {
 } */
 
 /* *********************/
+/* seccion S O B R E M I */
+/* *********************/
+ 
+
+
+
+
+
+
+/* *********************/
 /* seccion S E R V I C I O S */
 /* *********************/
 
@@ -449,7 +459,7 @@ h1 {
     background-color: rgba(255, 255, 255, .8);
     padding: 30px;
     margin: 0 5px;
-    border-radius: 5px;
+    border-radius: 40px;
     transition: .5s;
 }
 
@@ -660,7 +670,7 @@ h1 {
     margin: 0 10px 20px;
     position: relative;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 30px;
 }
 
 #portfolio .fila .proyecto img {

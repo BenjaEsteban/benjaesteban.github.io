@@ -145,3 +145,5 @@ Temporary Items
 .apdisk
 
 img/.DS_Store
+
+.astro/
