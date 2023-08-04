@@ -1,6 +1,6 @@
 
 #inicio {
-    height: auto;
+    height: 100vh;
     width: auto;
 }
 
@@ -13,13 +13,13 @@ nav {
 }
 
 nav.responsive {
+    width: 100%;
     display: block;
-    /* background-color: rgba(255, 255, 255, .8); */
     background: white;
     border-radius: 0 0 10px 10px;
-    width: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 60px;
+    top: 59px;
     left: 0;
     padding: 10px 0;
 }
@@ -46,8 +46,12 @@ nav.responsive ul li {
 }
 
 #inicio .contenido header .contenido-header img {
-    width: 140px;
+    width: 150px;
     height: 35px;
+}
+
+#inicio .contenido header .contenido-header {
+    background: white;
 }
 
 #sobremi {
