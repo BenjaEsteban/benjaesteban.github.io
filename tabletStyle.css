@@ -1,10 +1,7 @@
 
-#inicio {
-    height: 100%;
-}
 
 #inicio .contenido header .contenido-header img {
-    width: 140px;
+    width: 150px;
     height: 35px;
 }
 
@@ -95,6 +92,22 @@ nav.responsive ul li {
 #sobremi .intro-container {
     position: relative;
     bottom: 70px;
+}
+
+
+#contenido-sobremi .imagen-container img {
+    display: none;
+}
+
+#contenido-sobremi .articulo-container .texto-container {
+    padding: 10%;
+    margin: 0;
+    border-radius: 30px;
+    max-width: 100%;
+}
+
+#contenido-sobremi .articulo-container .imagen-container {
+    display: none;
 }
 
 /* seccion MIS SERVICIOS */

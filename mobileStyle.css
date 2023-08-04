@@ -105,6 +105,23 @@ nav.responsive ul li {
     text-align: center;
 }
 
+#contenido-sobremi .articulo-container .texto-container {
+    padding: 10%;
+    margin: 0;
+    max-width: 100%;
+}
+
+#contenido-sobremi .articulo-container .imagen-container {
+    display: none;
+}
+
+#contenido-sobremi .imagen-container img {
+    display: none;
+}
+
+#contenido-sobremi .articulo-container .texto-container h4 {
+    margin-bottom: 15px;
+}
 
 /* seccion MIS SERVICIOS */
 
