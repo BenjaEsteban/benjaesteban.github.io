@@ -1,0 +1,160 @@
+{
+    "header" : {
+        "inicio": "HOME",
+        "sobremi": "ABOUT ME",
+        "experiencia": "EXPERIENCE",
+        "portfolio": "PORTFOLIO",
+        "cursos": "COURSES"
+    },
+
+    "inicio": {
+        "saludo": "HI!, I'M",
+        "nombre": "BENJAMÍN RODRÍGUEZ",
+        "estudio": "I'm a student of Computer Science Engineering",
+        "descripcion": "Eager for knowledge and passionate about software development." 
+    },
+
+    "sobremi": {
+        "titulo": "ABOUT ME",
+        "titulo2": "FullStack Developer",
+        "descripcion": {
+            "lenguajes": {
+                "javascript": "JavaScript",
+                "ios": "iOS"
+            },
+            "parrafo1": "Passionate about web development with ",
+            "parrafo2": " and mobile development for ",
+            "parrafo3": "Constantly looking to learn and grow in these areas, keeping knowledge up to date with the latest trends through university and personal projects.",
+            "contacto1": "Contact me:",
+            "contacto2": "Email: b.esteban.r.v@gmail.com",
+            "botonDescarga": "Download CV"
+        }
+    },
+    "experiencia": {
+        "titulo": "UNIVERSITY EXPERIENCE",
+        "diseno": {
+            "titulo": "Website Design with HTML & CSS",
+            "herramientas": {
+                "li1": "HTML5",
+                "li2": "CSS3",
+                "li3": "JavaScript"
+            },
+            "descripcion": "Development of university and personal projects with Mobile First approach and emphasis on correct semantics and web optimization."
+        },
+        "react": {
+            "titulo": "Development with React",
+            "herramientas": {
+                "li1": "JS XML",
+                "li2": "Tailwind",
+                "li3": "Vite.js"
+            },
+            "descripcion": "Development of personal projects with React using Vite.js and Tailwind CSS. Some examples include the creation of a Task Manager and an E-commerce with test API integration."
+        },
+        "node": {
+            "titulo": "Development with NodeJS",
+            "herramientas": {
+                "li1": "API REST",
+                "li2": "JavaScript",
+                "li3": "DataBase"
+            },
+            "descripcion": "Experience in BackEnd development with Node, applying full CRUD operations and establishing connection via REST API."
+        },
+        "python": {
+            "titulo": "Programming with Python",
+            "herramientas": {
+                "li1": "POO",
+                "li2": "Python",
+                "li3": "Machine Learning"
+            },
+            "descripcion": "Experience in algorithm development and neural network programming for the implementation of artificial intelligence models."
+        },
+        "ios": {
+            "titulo": "Developed IOS",
+            "herramientas": {
+                "li1": "Swift",
+                "li2": "Xcode",
+                "li3": "POO"
+            },
+            "descripcion": "Initial experience in mobile development with Swift, applying knowledge in the creation of a project that replicates the iPhone calculator."
+        },
+        "datos": {
+            "titulo": "Database Development",
+            "herramientas": {
+                "li1": "SQL",
+                "li2": "MongoDB",
+                "li3": "MySQL"
+            },
+            "descripcion": "SQL programming experience and a strong proficiency in modeling and creating databases, both relational and non-relational."
+        }
+    },
+    "habilidades": {
+        "titulo": "SKILLS",
+        "seccion1": {
+            "nombre": "HTML & CSS",
+            "porcentaje": "75%"
+        },
+        "seccion2": {
+            "nombre": "JavaScript",
+            "porcentaje": "85%"
+        },
+        "seccion3": {
+            "nombre": "SQL",
+            "porcentaje": "80%"
+        },
+        "seccion4": {
+            "nombre": "Python",
+            "porcentaje": "90%"
+        },
+        "seccion5": {
+            "nombre": "Swift",
+            "porcentaje": "65%"
+        }
+    },
+    "proyectos": {
+        "titulo": "MY PROJECTS",
+        "proyecto1": {
+            "descripcion": "Website template oriented to buy and sell Cryptocurrencies",
+            "herramientas": "HTML & CSS"
+
+        },
+        "proyecto2": {
+            "descripcion": "Personal task management tool",
+            "herramientas": "React & Vite.js"
+        },
+        "pryecto3": {
+            "descripcion": "QR Code Generator from a URL or String",
+            "herramientas": "JavaScript"
+        },
+        "pryecto4": {
+            "descripcion": "Information on the planets of the Solar System",
+            "herramientas": "JavaScript Asincronísmo"
+        },
+        "pryecto5": {
+            "descripcion": "Small maze game",
+            "herramientas": "JavaScript, HTML & CSS"
+        },
+        "pryecto6": {
+            "descripcion": "Server of a university evidence system",
+            "herramientas": "NodeJS ExpressJS"
+        },
+        "botones": {
+            "pagina": "Website",
+            "codigo": "Code"
+        }
+    },
+    "cursos": {
+        "titulo": "COURSES ATTENDED",
+        "descripcion": "Platzi Academy 📚:",
+        "curso1": "React.js course",
+        "curso2": "Git and GitHub Professional Course",
+        "curso3": "Practical HTML and CSS Course",
+        "curso4": "Introduction to Software Design Patterns",
+        "curso5": "Course on Asynchronism with JavaScript",
+        "curso6": "Docker Course",
+        "curso7": "Regular Expression Course",
+        "curso8": "Practical JavaScript Course"
+    },
+    "footer": {
+        "titulo": "All rights reserved - 2023"
+    }
+}
