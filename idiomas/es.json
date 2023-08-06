@@ -8,8 +8,7 @@
     },
 
     "inicio": {
-        "saludo": "HOLA!, SOY",
-        "nombre": "BENJAMÍN RODRÍGUEZ",
+        "saludo": "Hola!, Soy <span>Benjam&iacute;n Rodr&iacute;guez</span>",
         "estudio": "Estudiante de Ingeniería Civil Informática",
         "descripcion": "Ansioso de conocimientos y apasionado por el desarrollo de Software" 
     },
@@ -17,134 +16,55 @@
     "sobremi": {
         "titulo": "SOBRE MI",
         "titulo2": "Desarrollador FullStack",
-        "descripcion": {
-            "lenguajes": {
-                "javascript": "JavaScript",
-                "ios": "iOS"
-            },
-            "parrafo1": "Apasionado por el desarrollo web con ",
-            "parrafo2": " y el desarrollo móvil para ",
-            "parrafo3": "En constante búsqueda de aprender y crecer en estas áreas, manteniendo conocimientos al día con las últimas tendencias a través de proyectos universitarios y personales.",
-            "contacto1": "Contáctame:",
-            "contacto2": "Correo: b.esteban.r.v@gmail.com",
-            "botonDescarga": "Descargar CV"
-        }
+        "parrafo1": "Apasionado por el desarrollo web con <span>JavaScript</span> y el desarrollo m&oacute;vil para <span>iOS</span>",
+        "parrafo2": "En constante búsqueda de aprender y crecer en estas áreas, manteniendo conocimientos al día con las últimas tendencias a través de proyectos universitarios y personales.",
+        "contacto1": "Contáctame:",
+        "contacto2": "Correo: b.esteban.r.v@gmail.com",
+        "botonDescarga": "Descargar CV"
     },
+
     "experiencia": {
         "titulo": "EXPERIENCIA UNIVERSITARIA",
-        "diseno": {
-            "titulo": "Diseño de Sitios Web con HTML & CSS",
-            "herramientas": {
-                "li1": "HTML5",
-                "li2": "CSS3",
-                "li3": "JavaScript"
-            },
-            "descripcion": "Desarrollo de proyectos universitarios y personales con enfoque Mobile First y énfasis en la correcta semántica y optimización web."
-        },
-        "react": {
-            "titulo": "Desarrollo con React",
-            "herramientas": {
-                "li1": "JS XML",
-                "li2": "Tailwind",
-                "li3": "Vite.js"
-            },
-            "descripcion": "Desarrollo de proyectos personales con React utilizando Vite.js y Tailwind CSS. Algunos ejemplos incluyen la creación de un Task Manager y un E-commerce con integración de API de prueba."
-        },
-        "node": {
-            "titulo": "Desarrollo con NodeJS",
-            "herramientas": {
-                "li1": "API REST",
-                "li2": "JavaScript",
-                "li3": "DataBase"
-            },
-            "descripcion": "Experiencia en el desarrollo de BackEnd con Node, aplicando operaciones CRUD completas y estableciendo la conexión a través de API REST."
-        },
-        "python": {
-            "titulo": "Programación con Python",
-            "herramientas": {
-                "li1": "POO",
-                "li2": "Python",
-                "li3": "Machine Learning"
-            },
-            "descripcion": "Experiencia en el desarrollo de algoritmos y programación de redes neuronales para la implementación de modelos de inteligencia artificial."
-        },
-        "ios": {
-            "titulo": "Desarrollado IOS",
-            "herramientas": {
-                "li1": "Swift",
-                "li2": "Xcode",
-                "li3": "POO"
-            },
-            "descripcion": "Experiencia inicial en el desarrollo móvil con Swift, aplicando conocimientos en la creación de un proyecto que replica la calculadora del iPhone."
-        },
-        "datos": {
-            "titulo": "Desarrollo de Bases de datos",
-            "herramientas": {
-                "li1": "SQL",
-                "li2": "MongoDB",
-                "li3": "MySQL"
-            },
-            "descripcion": "Experiencia en programación en SQL y un gran dominio en el modelamiento y creación de bases de datos, tanto relacionales como no relacionales."
-        }
+
+        "titulo1": "Diseño de Sitios Web con HTML & CSS",
+        "descripcion1": "Desarrollo de proyectos universitarios y personales con enfoque Mobile First y énfasis en la correcta semántica y optimización web.",
+
+        "titulo2": "Desarrollo con React",
+        "descripcion2": "Desarrollo de proyectos personales con React utilizando Vite.js y Tailwind CSS. Algunos ejemplos incluyen la creación de un Task Manager y un E-commerce con integración de API de prueba.",
+
+        "titulo3": "Desarrollo con NodeJS",
+        "descripcion3": "Experiencia en el desarrollo de BackEnd con Node, aplicando operaciones CRUD completas y estableciendo la conexión a través de API REST.",
+
+        "titulo4": "Programación con Python",
+        "descripcion4": "Experiencia en el desarrollo de algoritmos y programación de redes neuronales para la implementación de modelos de inteligencia artificial.",
+
+        "titulo5": "Desarrollado IOS",
+        "descripcion5": "Experiencia inicial en el desarrollo móvil con Swift, aplicando conocimientos en la creación de un proyecto que replica la calculadora del iPhone.",
+
+        "titulo6": "Desarrollo de Bases de datos",
+        "descripcion6": "Experiencia en programación en SQL y un gran dominio en el modelamiento y creación de bases de datos, tanto relacionales como no relacionales."
+    
     },
+
     "habilidades": {
-        "titulo": "HABILIDADES",
-        "seccion1": {
-            "nombre": "HTML & CSS",
-            "porcentaje": "75%"
-        },
-        "seccion2": {
-            "nombre": "JavaScript",
-            "porcentaje": "85%"
-        },
-        "seccion3": {
-            "nombre": "SQL",
-            "porcentaje": "80%"
-        },
-        "seccion4": {
-            "nombre": "Python",
-            "porcentaje": "90%"
-        },
-        "seccion5": {
-            "nombre": "Swift",
-            "porcentaje": "65%"
-        }
+        "titulo": "HABILIDADES"
     },
+
     "proyectos": {
         "titulo": "MIS PROYECTOS",
-        "proyecto1": {
-            "descripcion": "Modelo de página web orientado a la compra y venta de Criptomonedas",
-            "herramientas": "HTML & CSS"
 
-        },
-        "proyecto2": {
-            "descripcion": "Herramienta para gestionar tareas personales",
-            "herramientas": "React & Vite.js"
-        },
-        "pryecto3": {
-            "descripcion": "Generador de códigos QR a partir de una URL o String",
-            "herramientas": "JavaScript"
-        },
-        "pryecto4": {
-            "descripcion": "Información de los planetas del Sistema Solar",
-            "herramientas": "JavaScript Asincronísmo"
-        },
-        "pryecto5": {
-            "descripcion": "Pequeño juego de laberintos",
-            "herramientas": "JavaScript, HTML & CSS"
-        },
-        "pryecto6": {
-            "descripcion": "Servidor de un sistema de evidencias universitaria",
-            "herramientas": "NodeJS ExpressJS"
-        },
-        "botones": {
-            "pagina": "Página Web",
-            "codigo": "Código"
-        }
+        "descripcion1": "Modelo de página web orientado a la compra y venta de Criptomonedas",
+        "descripcion2": "Herramienta para gestionar tareas personales",
+        "descripcion3": "Generador de códigos QR a partir de una URL o String",
+        "descripcion4": "Información de los planetas del Sistema Solar",
+        "descripcion5": "Pequeño juego de laberintos",
+        "descripcion6": "Servidor de un sistema de evidencias universitaria",
+
+        "pagina": "<span></span> P&aacute;gina web",
+        "codigo": "<span></span> C&oacute;digo"
     },
     "cursos": {
         "titulo": "CURSOS REALIZADOS",
-        "descripcion": "Platzi Academy 📚:",
         "curso1": "Curso de React.js",
         "curso2": "Curso Profesional de Git y GitHub",
         "curso3": "Curso Práctico de HTML y CSS",

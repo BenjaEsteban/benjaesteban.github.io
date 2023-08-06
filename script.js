@@ -73,12 +73,23 @@ const descargarPDF = (url) => {
   a.remove()
 }
 
+//Funcionalidad del cambio de
+const banderas = document.getElementById("banderas")
+const cambioTexto = document.querySelectorAll("[data-section]")
 
-//escuchar click del boton de idiomas
+const cambioIdioma = async (idioma) => {
+  const respuestaJson = await fetch(`./idiomas/${idioma}.json`)
+  const texto = await respuestaJson.json()
+  // console.log(texto)
 
-const toggleSwitch = document.getElementById('toggleSwitch');
+  for (const i of cambioTexto) {
+    const section = i.dataset.section
+    const value = i.dataset.value
 
-toggleSwitch.addEventListener('click', () => {
-  toggleSwitch.classList.toggle('cl-toggle-switch');
-  toggleSwitch.classList.toggle('cl-toggle-switch-es');
-});
+    i.innerHTML = texto[section][value]
+  }
+}
+
+banderas.addEventListener("click", (e) => {
+  cambioIdioma(e.target.parentElement.dataset.idioma)
+})
