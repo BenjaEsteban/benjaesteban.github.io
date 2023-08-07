@@ -14,9 +14,10 @@ nav {
 
 nav.responsive {
     width: 100%;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: white;
-    border-radius: 0 0 10px 10px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
     top: 59px;
@@ -52,6 +53,10 @@ nav.responsive ul li {
 
 #inicio .contenido header .contenido-header {
     background: white;
+}
+
+#inicio .contenido header .banderas {
+    margin: 15px 5px;
 }
 
 #sobremi {

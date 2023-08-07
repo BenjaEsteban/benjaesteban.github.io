@@ -5,6 +5,22 @@
     height: 35px;
 }
 
+#inicio .contenido header .banderas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+#inicio .contenido header .contenido-header {
+    background: white;
+}
+
+#inicio .contenido header .banderas .bandera-item {
+    position: relative;
+    right: 10px;
+}
+
 .redes {
     display: none;
 }
@@ -15,10 +31,10 @@ nav {
 
 nav.responsive {
     display: block;
-    background-color: rgba(255, 255, 255, .8);;
+    background-color: white;
     width: 100%;
     position: absolute;
-    top: 48px;
+    top: 59px;
     left: 0;
     padding: 10px 0;
 }

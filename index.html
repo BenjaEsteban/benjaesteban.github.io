@@ -29,7 +29,7 @@
     <link
       rel="stylesheet"
       href="tabletStyle.css"
-      media="(max-width: 800px) and (min-width: 601px)"
+      media="(max-width: 900px) and (min-width: 601px)"
     />
     <title>Benjamin's Page</title>
   </head>
@@ -47,7 +47,7 @@
         <header>
           <div class="contenido-header">
             <a href="#inicio"
-              ><img src="img/logo.png" alt="Logo Benjamins"
+              ><img src="assets/img/logo.png" alt="Logo Benjamins"
             /></a>
             <nav id="nav" class="">
               <ul id="links">
@@ -88,7 +88,7 @@
                     >PORTFOLIO</a
                   >
                 </li>
-                <li>
+                <li class="curso-seleccionador">
                   <a
                     href="#cursos"
                     onclick="seleccionar(this)"
@@ -97,34 +97,22 @@
                     >CURSOS</a
                   >
                 </li>
-                <li>
-                  <div id="banderas" class="banderas">
-                    <div class="bandera-item" data-idioma="es">
-                      <img
-                        src="/assets/icons/espana.png"
-                        alt="icono de españa"
-                      />
-                    </div>
-                    <div class="bandera-item" data-idioma="en">
-                      <img
-                        src="/assets/icons/reino-unido.png"
-                        alt="icono del reino unido"
-                      />
-                    </div>
+                <li id="banderas" class="banderas">
+                  <div class="bandera-item" data-idioma="es">
+                    <img
+                      src="/assets/icons/espana.png"
+                      alt="icono de españa"
+                    />
+                  </div>
+                  <div class="bandera-item" data-idioma="en">
+                    <img
+                      src="/assets/icons/reino-unido.png"
+                      alt="icono del reino unido"
+                    />
                   </div>
                 </li>
-                <!-- <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li> -->
               </ul>
             </nav>
-
-            <!-- <div id="banderas" class="banderas">
-              <div class="bandera-item" data-idioma="es">
-                <img src="/assets/icons/espana.png" alt="icono de españa">
-              </div>
-              <div class="bandera-item" data-idioma="en">
-                <img src="/assets/icons/reino-unido.png" alt="icono del reino unido">
-              </div>
-            </div> -->
 
             <!-- Icono del menu responsive  -->
             <div id="icono-nav" onclick="responsiveMenu()">
@@ -140,10 +128,10 @@
         <!-- SECCION S O B R E M I -->
         <section id="sobremi">
           <article class="contenedor-foto">
-            <img class="pc-emoji" src="img/pcEmoji.png" alt="Computer Emoji" />
+            <img class="pc-emoji" src="assets/img/pcEmoji.png" alt="Computer Emoji" />
             <img
               class="guino-emoji"
-              src="img/guinoEmoji.png"
+              src="assets/img/guinoEmoji.png"
               alt="Hello Emoji"
             />
           </article>
@@ -223,7 +211,7 @@
           </button>
         </div>
         <div class="imagen-container">
-          <img src="./img/benjamins.png" alt="Foto personal" />
+          <img src="assets/img/benjamins.png" alt="Foto personal" />
         </div>
       </article>
     </section>
@@ -406,7 +394,7 @@
         <div class="proyecto">
           <div class="overlay"></div>
 
-          <img src="./img/bitcoin.png" alt="Web de Bitcoin-Page" />
+          <img src="assets/img/bitcoin.png" alt="Web de Bitcoin-Page" />
           <div class="info">
             <h4 data-section="proyectos" data-value="descripcion1">
               Modelo de página web orientado a la compra y venta de
@@ -428,7 +416,7 @@
         <div class="proyecto">
           <div class="overlay"></div>
 
-          <img src="./img/task_manager.png" alt="Web Task Manager" />
+          <img src="assets/img/task_manager.png" alt="Web Task Manager" />
           <div class="info">
             <h4 data-section="proyectos" data-value="descripcion2">
               Herramienta para gestionar tareas personales
@@ -449,7 +437,7 @@
         <div class="proyecto">
           <div class="overlay"></div>
 
-          <img src="./img/qr_generator.png" alt="Web QR Generator" />
+          <img src="assets/img/qr_generator.png" alt="Web QR Generator" />
           <div class="info">
             <h4 data-section="proyectos" data-value="descripcion3">
               Generador de c&oacute;digos QR a partir de una URL o String
@@ -472,7 +460,7 @@
         <div class="proyecto">
           <div class="overlay"></div>
 
-          <img src="./img/async_landing.png" alt="" />
+          <img src="assets/img/async_landing.png" alt="" />
           <div class="info">
             <h4 data-section="proyectos" data-value="descripcion4">
               Información de los planetas del Sistema Solar
@@ -494,7 +482,7 @@
           <div class="overlay"></div>
 
           <img
-            src="./img/javascript_game.png"
+            src="assets/img/javascript_game.png"
             alt="Juego hecho con JavaScript"
           />
           <div class="info">
@@ -516,7 +504,7 @@
         </div>
         <div class="proyecto">
           <div class="overlay"></div>
-          <img src="./img/backend.png" alt="Proyecto BackEnd" />
+          <img src="assets/img/backend.png" alt="Proyecto BackEnd" />
 
           <div class="info">
             <h4 data-section="proyectos" data-value="descripcion6">
@@ -541,13 +529,13 @@
       </h3>
       <div class="contenedor-form">
         <section class="emoji-section">
-          <img src="img/ideaEmoji.png" alt="Emoji de idea brillante" />
+          <img src="assets/img/ideaEmoji.png" alt="Emoji de idea brillante" />
         </section>
         <section class="cursos-section">
           <ul class="lista-cursos-section">
             <h3>Platzi Academy 📚:</h3>
             <li>
-              <img src="img/reactCourse.png" alt="" />
+              <img src="assets/img/reactCourse.png" alt="" />
               <a
                 href="https://platzi.com/p/Benjamin_Esteban/curso/7395-react/diploma/detalle/"
               >
@@ -557,7 +545,7 @@
               </a>
             </li>
             <li>
-              <img src="img/githubCourse.png" alt="" />
+              <img src="assets/img/githubCourse.png" alt="" />
               <a
                 href="https://platzi.com/p/Benjamin_Esteban/curso/1557-course/diploma/detalle/"
               >
@@ -567,7 +555,7 @@
               </a>
             </li>
             <li>
-              <img src="img/practicHtmlCss.png" alt="" />
+              <img src="assets/img/practicHtmlCss.png" alt="" />
               <a
                 href="https://platzi.com/p/Benjamin_Esteban/curso/1758-course/diploma/detalle/"
               >
@@ -577,7 +565,7 @@
               </a>
             </li>
             <li>
-              <img src="img/patronesCourse.png" alt="" />
+              <img src="assets/img/patronesCourse.png" alt="" />
               <a
                 href="https://platzi.com/p/Benjamin_Esteban/curso/6735-patrones-diseno-software/diploma/detalle/"
               >
@@ -588,7 +576,7 @@
               </a>
             </li>
             <li>
-              <img src="img/asincronismo.png" alt="" />
+              <img src="assets/img/asincronismo.png" alt="" />
               <a
                 href="https://platzi.com/p/Benjamin_Esteban/curso/3175-asincronismo-js/diploma/detalle/"
               >
@@ -598,7 +586,7 @@
               </a>
             </li>
             <li>
-              <img src="img/dockerCourse.png" alt="" />
+              <img src="assets/img/dockerCourse.png" alt="" />
               <a
                 href="https://platzi.com/p/Benjamin_Esteban/curso/2066-docker/diploma/detalle/"
               >
@@ -606,7 +594,7 @@
               </a>
             </li>
             <li>
-              <img src="img/expreRegulares.png" alt="" />
+              <img src="assets/img/expreRegulares.png" alt="" />
               <a
                 href="https://platzi.com/p/Benjamin_Esteban/curso/1301-course/diploma/detalle/"
               >
@@ -616,7 +604,7 @@
               </a>
             </li>
             <li>
-              <img src="img/javaScriptPractic.png" alt="" />
+              <img src="assets/img/javaScriptPractic.png" alt="" />
               <a
                 href="https://platzi.com/p/Benjamin_Esteban/curso/3271-course/diploma/detalle/"
               >
@@ -653,20 +641,3 @@
   </body>
 </html>
 
-<!-- seccion de contacto -->
-
-<!-- <form action="">
-                <div class="fila mitad">
-                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
-                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
-                </div>
-                <div class="fila">
-                    <input type="text" placeholder="Tema..." class="input-full">
-                </div>
-                <div class="fila">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
-                        class="input-full"></textarea>
-                </div>
-
-                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
-            </form> -->

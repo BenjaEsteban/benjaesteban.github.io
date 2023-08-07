@@ -52,12 +52,10 @@ h1 {
 /* Boton de cambio de idioma */
 
 #inicio .contenido header .banderas {
-  width: 75px;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-left: 30px;
+  margin-left: 50px;
 }
+
 
 #inicio .contenido header .banderas .bandera-item {
   width: 35px;
@@ -110,6 +108,7 @@ h1 {
   display: flex;
   align-items: center;
 }
+
 
 #inicio .contenido header .contenido-header nav ul li a {
   text-decoration: none;
@@ -577,7 +576,7 @@ h1 {
 
 .contenedor-skills {
   background: linear-gradient(var(--blue-color), rgba(33, 16, 16, 0.8)),
-    url("img/fondo-skills.jpg");
+    url("assets/img/fondo-skills.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -707,9 +706,11 @@ h1 {
   }
 }
 
+
 /* *********************/
 /* seccion P O R T F O L I O */
 /* *********************/
+
 
 #portfolio {
   max-width: 1100px;
@@ -813,9 +814,11 @@ h1 {
   bottom: 0;
 }
 
+
 /* *********************/
 /* seccion C U R S O S */
 /* *********************/
+
 
 #cursos {
   padding: 100px 15px;
@@ -901,48 +904,6 @@ h1 {
 #cursos .contenedor-form .emoji-section:hover {
   transform: scale(1.1);
 }
-
-/*
-
-#cursos .contenedor-form .fila {
-    margin-bottom: 15px;
-}
-
-
-#cursos .contenedor-form .mitad {
-    display: flex;
-    justify-content: space-between;
-}
-
-#cursos .contenedor-form input,
-#cursos .contenedor-form textarea {
-    padding: 20px;
-    border-radius: 20px;
-    border: none;
-    border: 1px solid #919191;
-}
-
-#cursos .contenedor-form .mitad input {
-    width: 48%;
-}
-
-#cursos .contenedor-form .input-full {
-    width: 100%;
-}
-
-
-#cursos .btn-enviar {
-    display: block;
-    margin: auto;
-    cursor: pointer;
-    transition: .5s;
-    padding: 10px 15px !important;
-}
-
-#cursos .btn-enviar:hover {
-    background-color: var(--blue-color);
-    color: #fff;
-} */
 
 /* *********************/
 /* seccion F O O T E R */
