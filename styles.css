@@ -337,6 +337,11 @@ h1 {
   margin-top: 10px;
 }
 
+#sobremi .sobremi p span {
+  font-weight: bold;
+  color: var(--blue-color);
+}
+
 #sobremi .intro-container .intro-iconos {
   display: flex;
   justify-content: center;

@@ -10,14 +10,15 @@
     "inicio": {
         "saludo": "HI!, I'M <span>Benjam&iacute;n Rodr&iacute;guez</span>",
         "estudio": "Student of Computer Science Engineering",
-        "descripcion": "Eager for knowledge and passionate about software development." 
+        "descripcion": "Skilled in web development using <span>Javascript</span> and in the creation of mobile applications using <span>Swift</span>." 
     },
 
     "sobremi": {
         "titulo": "ABOUT ME",
         "titulo2": "FullStack Developer",
-        "parrafo1": "Passionate about web development with <span>JavaScript</span> and mobile development for <span>iOS</span>",
-        "parrafo2": "Constantly looking to learn and grow in these areas, keeping knowledge up to date with the latest trends through university and personal projects.",
+        "parrafo1": "With a passion for software development, I have accumulated experience in various web projects, which include both university and personal work.",
+        "parrafo2": "My focus ranges from front-end with <span>React</span> to back-end skills using <span>Node</span>.",
+        "parrafo3": "Additionally, I have had the opportunity to expand my knowledge into the mobile realm, developing <span>iOS</span> applications.",
         "contacto1": "Contact me:",
         "contacto2": "Email: b.esteban.r.v@gmail.com",
         "botonDescarga": "Download CV"
