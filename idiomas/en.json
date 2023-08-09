@@ -73,7 +73,8 @@
         "curso5": "Course on Asynchronism with JavaScript",
         "curso6": "Docker Course",
         "curso7": "Regular Expression Course",
-        "curso8": "Practical JavaScript Course"
+        "curso8": "Practical JavaScript Course",
+        "curso9": "Responsive Design Course: Mobile First"
     },
     "footer": {
         "titulo": "All rights reserved - 2023"
