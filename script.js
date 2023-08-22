@@ -10,7 +10,7 @@ animacionButton.addEventListener("click", () => {
   linea3.classList.toggle("transformation-line-3")
 })
 
-//Función que me aplica el estilo a la opción seleccionada y quita la previamente seleccionada
+//Función que aplica el estilo a la opción seleccionada y quita la previamente seleccionada
 function seleccionar(link) {
   var opciones = document.querySelectorAll("#links a")
   opciones[0].className = ""
@@ -28,7 +28,7 @@ function seleccionar(link) {
   linea3.classList.toggle("transformation-line-3")
 }
 
-//función que muestra el menu responsive
+//función que muestra el menu responsivo
 function responsiveMenu() {
   var x = document.getElementById("nav")
   if (x.className === "") {
@@ -56,7 +56,7 @@ function efectoHabilidades() {
   }
 }
 
-// Descarga de CV en PDF
+// Funcionalidad para la descarga de CV en PDF
 const botonDesacarga = document.querySelector(".cv-boton")
 
 botonDesacarga.addEventListener("click", () => {
@@ -73,7 +73,7 @@ const descargarPDF = (url) => {
   a.remove()
 }
 
-//Funcionalidad del cambio de
+//Funcionalidad de cambio de Idioma
 const banderas = document.getElementById("banderas")
 const cambioTexto = document.querySelectorAll("[data-section]")
 
