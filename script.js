@@ -68,7 +68,7 @@ const descargarPDF = (url) => {
   const a = document.createElement('a')
   a.href = url
   a.target = '_blank'
-  a.download = 'CV.pdf'
+  a.download = 'cv.pdf'
   a.click()
   a.remove()
 }
