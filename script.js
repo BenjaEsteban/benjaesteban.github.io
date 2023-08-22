@@ -57,21 +57,21 @@ function efectoHabilidades() {
 }
 
 // Funcionalidad para la descarga de CV en PDF
-const botonDesacarga = document.querySelector(".cv-boton")
+// const botonDesacarga = document.querySelector(".cv-boton")
 
-botonDesacarga.addEventListener("click", () => {
-  const url = './assets/cv.pdf'
-  descargarPDF(url)
-})
+// botonDesacarga.addEventListener("click", () => {
+//   const url = './assets/cv.pdf'
+//   descargarPDF(url)
+// })
 
-const descargarPDF = (url) => {
-  const a = document.createElement('a')
-  a.href = url
-  a.target = '_blank'
-  a.download = 'cv.pdf'
-  a.click()
-  a.remove()
-}
+// const descargarPDF = (url) => {
+//   const a = document.createElement('a')
+//   a.href = url
+//   a.target = '_blank'
+//   a.download = 'cv.pdf'
+//   a.click()
+//   a.remove()
+// }
 
 //Funcionalidad de cambio de Idioma
 const banderas = document.getElementById("banderas")
