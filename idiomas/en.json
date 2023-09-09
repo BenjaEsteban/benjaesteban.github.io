@@ -10,7 +10,7 @@
     "inicio": {
         "saludo": "HI!, I'M <span>Benjam&iacute;n Rodr&iacute;guez</span>",
         "estudio": "Student of Computer Science Engineering",
-        "descripcion": "Skilled in web development using <span>Javascript</span> and in the creation of mobile applications using <span>Swift</span>." 
+        "descripcion": "Skilled in web development using <span>JavaScript</span> and in the creation of mobile applications using <span>Swift</span>." 
     },
 
     "sobremi": {

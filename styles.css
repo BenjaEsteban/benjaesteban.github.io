@@ -913,6 +913,12 @@ footer {
   border-radius: 10px 10px 0 0;
 }
 
+footer h4 {
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
 footer a {
   text-decoration: none;
   color: #fff;
