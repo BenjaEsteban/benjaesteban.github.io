@@ -396,7 +396,7 @@ h1 {
 #contenido-sobremi {
   max-width: 100%;
   padding: 100px 15px;
-  background: var(--warm-black);
+  background: #f8f9fa;
 }
 
 #contenido-sobremi h2 {
@@ -435,7 +435,7 @@ h1 {
 #contenido-sobremi .articulo-container .texto-container {
   max-width: 50%;
   height: 100%;
-  background: var(--black);
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -449,7 +449,7 @@ h1 {
 #contenido-sobremi .articulo-container .texto-container p {
   font-size: 14px;
   line-height: 24px;
-  color: white;
+  color: rgb(86, 86, 86);
   margin-bottom: 12px;
   margin-top: 10px;
 }
