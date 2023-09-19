@@ -161,7 +161,6 @@ nav.responsive ul li {
 
 #portfolio .fila .proyecto {
     margin: 10px auto;
-    overflow: hidden;
 }
 
 #portfolio .fila .proyecto .info button {
@@ -187,4 +186,9 @@ nav.responsive ul li {
 
 #cursos .contenedor-form .emoji-section img {
     display: none;
+}
+
+
+#footer h4 {
+    font-size: 15px;
 }

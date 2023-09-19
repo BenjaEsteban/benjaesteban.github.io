@@ -737,7 +737,6 @@ h1 {
 #portfolio .fila .proyecto {
   max-width: 350px;
   max-height: 350px;
-  border: 1px solid #000;
   margin: 0 10px 20px;
   position: relative;
   overflow: hidden;
@@ -745,17 +744,12 @@ h1 {
 }
 
 #portfolio .fila .proyecto img {
-  width: 360px;
+  width: 420px;
   height: 100%;
-  filter: grayscale(1);
   object-fit: cover;
   transition: 0.5s;
 }
 
-#portfolio .fila .proyecto:hover img {
-  filter: grayscale(0);
-  border-radius: 15px 15px 15px 15px;
-}
 
 #portfolio .fila .proyecto .info {
   position: absolute;
@@ -812,6 +806,10 @@ h1 {
 #portfolio .fila .proyecto:hover .info {
   opacity: 1;
   bottom: 0;
+}
+
+#portfolio .fila .proyecto:hover img {
+  filter: brightness(0.5);
 }
 
 
@@ -909,7 +907,7 @@ h1 {
 /* seccion F O O T E R */
 /* *********************/
 
-footer {
+#footer {
   background-color: var(--blue-color);
   color: #ffffff;
   text-align: center;
@@ -917,10 +915,17 @@ footer {
   border-radius: 10px 10px 0 0;
 }
 
-footer a {
+#footer h4 {
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+#footer a {
   text-decoration: none;
   color: #fff;
   display: inline-block;
   margin: 5px;
   font-size: 26px;
 }
+

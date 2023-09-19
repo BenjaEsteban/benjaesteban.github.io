@@ -10,7 +10,7 @@
     "inicio": {
         "saludo": "Hola!, Soy <span>Benjam&iacute;n Rodr&iacute;guez</span>",
         "estudio": "Estudiante de Ingeniería Civil Informática",
-        "descripcion": "Con habilidades en el desarrollo web utilizando <span>Javascript</span> y en la creación de aplicaciones móviles mediante <span>Swift</span>." 
+        "descripcion": "Con habilidades en el desarrollo web utilizando <span>JavaScript</span> y en la creación de aplicaciones móviles mediante <span>Swift</span>." 
     },
 
     "sobremi": {
