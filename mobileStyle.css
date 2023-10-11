@@ -175,9 +175,13 @@ nav.responsive ul li {
     align-items: center;
 }
 
+#cursos .lista-cursos-section h3 {
+    text-align: center;
+}
+
 #cursos .contenedor-form .cursos-section {
-    margin-top: 50px;
-    padding: 0;
+    margin: 0px;
+    padding: 0 25px;
 }
 
 #cursos .contenedor-form .cursos-section .lista-cursos-section li p {

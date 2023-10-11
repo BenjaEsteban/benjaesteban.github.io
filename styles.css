@@ -1,5 +1,6 @@
 :root {
   --blue-color: #015198;
+  --soft-blue: #51AFF1;
   --warm-black: #282623;
   --black: #201e1c;
   --off-white: #faf8f7;
@@ -401,13 +402,13 @@ h1 {
 
 #contenido-sobremi h2 {
   text-align: center;
-  font-size: 22px;
+  font-weight: 800;
+  font-size: max(48px, min(5vw, 56px));
   margin-bottom: 40px;
-  text-transform: uppercase;
-  color: #111135;
-  text-decoration: underline;
-  text-decoration-color: #d3d3d3;
-  text-decoration-thickness: 5px;
+  background: linear-gradient(to right, var(--blue-color), var(--soft-blue));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; 
 }
 
 #contenido-sobremi .articulo-container {
@@ -501,17 +502,18 @@ h1 {
 #servicios {
   padding: 100px 15px;
   text-align: center;
-  background-color: #b5b5b5;
+  background-color: #f8f9fa;
 }
 
 #servicios .titulo-seccion {
   text-align: center;
-  font-size: 22px;
-  text-transform: uppercase;
-  color: #111135;
-  text-decoration: underline;
-  text-decoration-color: #d3d3d3;
-  text-decoration-thickness: 5px;
+  font-weight: 800;
+  font-size: max(48px, min(5vw, 56px));
+  margin-bottom: 45px;
+  background: linear-gradient(to right, var(--blue-color), #51AFF1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; 
 }
 
 #servicios .fila {
@@ -524,15 +526,20 @@ h1 {
 
 #servicios .fila .servicio {
   max-width: 350px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--just-white);
   padding: 30px;
   margin: 0 5px;
   border-radius: 40px;
   transition: 0.5s;
+  border: 2.5px solid transparent;
+  transition: 0.5s;
+  animation: borderAnimation 2s infinite alternate;
 }
 
 #servicios .fila .servicio:hover {
-  box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+  box-shadow: 5px 5px 10px #8a8a8a, -5px -5px 10px #8a8a8a;
+  transform: scale(1.1);
+  animation: none;
 }
 
 #servicios .fila .servicio .icono {
@@ -543,6 +550,18 @@ h1 {
   background-color: white;
   padding: 20px;
   margin-bottom: 25px;
+  border: 2px solid transparent;
+  transition: 0.5s;
+  animation: borderAnimation 2s infinite alternate;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: var(--soft-blue); 
+  }
 }
 
 #servicios .fila .servicio h4 {
@@ -573,6 +592,15 @@ h1 {
 /* *********************/
 /* seccion S K I L L S */
 /* *********************/
+
+.contenedor-skills h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: max(28px, min(5vw, 46px));
+  margin-bottom: 55px;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
 .contenedor-skills {
   background: linear-gradient(var(--blue-color), rgba(33, 16, 16, 0.8)),
@@ -720,12 +748,13 @@ h1 {
 
 #portfolio .titulo-seccion {
   text-align: center;
-  font-size: 22px;
-  text-transform: uppercase;
-  color: #111135;
-  text-decoration: underline;
-  text-decoration-color: #d3d3d3;
-  text-decoration-thickness: 5px;
+  font-weight: 800;
+  font-size: max(48px, min(5vw, 56px));
+  margin-bottom: 45px;
+  background: linear-gradient(to right, var(--blue-color), #51AFF1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; 
 }
 
 #portfolio .fila {
@@ -825,12 +854,13 @@ h1 {
 
 #cursos .titulo-seccion {
   text-align: center;
-  font-size: 22px;
-  text-transform: uppercase;
-  color: #111135;
-  text-decoration: underline;
-  text-decoration-color: #d3d3d3;
-  text-decoration-thickness: 5px;
+  font-weight: 800;
+  font-size: max(48px, min(5vw, 56px));
+  margin-bottom: 45px;
+  background: linear-gradient(to right, var(--blue-color), #51AFF1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; 
 }
 
 #cursos .contenedor-form {
@@ -892,15 +922,13 @@ h1 {
   align-items: center;
   text-align: center;
   transition: transform 0.5s;
+  filter: 
+    drop-shadow(0 0 10px var(--warm-black));
 }
 
 #cursos .contenedor-form .emoji-section img {
   max-width: 100%;
   height: auto;
-}
-
-#cursos .contenedor-form .emoji-section:hover {
-  transform: scale(1.1);
 }
 
 /* *********************/
