@@ -9,13 +9,13 @@
 
     "inicio": {
         "saludo": "Hola!, Soy <span>Benjam&iacute;n Rodr&iacute;guez</span>",
-        "estudio": "Estudiante de Ingeniería Civil Informática",
-        "descripcion": "Con habilidades en el desarrollo web utilizando <span>JavaScript</span> y en la creación de aplicaciones móviles mediante <span>Swift</span>." 
+        "estudio": "Ingeniero DevOps en IBM Chile",
+        "descripcion": "Con habilidades en <span>Python</span>, <span>Kubernetes</span> y computación en la <span>Nube</span>." 
     },
 
     "sobremi": {
         "titulo": "SOBRE MI",
-        "titulo2": "Desarrollador FullStack",
+        "titulo2": "Ingeniero DevOps",
         "parrafo1": "Con pasión por el desarrollo de software, he acumulado experiencia en diversos proyectos web, que incluyen tanto trabajos universitarios como personales.",
         "parrafo2": "Mi enfoque abarca en el Front-end con <span>React</span> hasta la habilidad en el Back-end utilizando <span>Node.js</span>. ",
         "parrafo3": "Además, he tenido la oportunidad de expandir mi conocimiento en el ámbito móvil, desarrollando aplicaciones para <span>iOS</span>.",
