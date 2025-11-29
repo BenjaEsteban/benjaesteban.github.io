@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Benjamín Rodríguez • DevOps & Site Reliability",
+    "description": "DevOps and Computer Science Engineer with experience in automation, Linux, CI/CD and monitoring. Open to relocation to Denmark."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "portfolio": "Portfolio",
+    "courses": "Courses"
+  },
+  "hero": {
+    "overline": "Engineering • DevOps • Cloud",
+    "title": "Hi, I'm <span>Benjamín Rodríguez</span>",
+    "subtitle": "Computer Science Engineer & DevOps Engineer",
+    "description": "I design, automate and monitor infrastructures based on Linux, Kubernetes and Azure, with a strong focus on reliability, best practices and collaboration with international teams.",
+    "btnCv": "Download CV",
+    "btnProjects": "View projects",
+    "available": "Open to new opportunities",
+    "location": "Santiago, Chile · Coming soon to Denmark",
+    "role": "DevOps • Monitoring • Automation",
+    "tag1": "Kubernetes",
+    "tag2": "Docker",
+    "tag3": "Python",
+    "tag4": "Checkmk"
+  },
+  "about": {
+    "title": "About me",
+    "p1": "I am a Computer Science Engineer with hands-on experience in DevOps, automation and Linux environments. I enjoy working on platforms where reliability, observability and continuous improvement are key.",
+    "p2": "I have contributed to projects ranging from business process automation with Python, to deployment management in Azure and OpenShift, and the operation of on-premise pre-production environments. I feel comfortable working in English and I am especially interested in joining teams based in Denmark.",
+    "roleLabel": "Current role",
+    "roleValue": "DevOps / Systems Engineer",
+    "expLabel": "Experience",
+    "expValue": "2+ years in pre-production environments",
+    "interestsLabel": "Interests",
+    "interestsValue": "Cloud, SRE, monitoring, automation",
+    "cardTitle": "How I can add value to your team",
+    "cardItem1": "Operation and monitoring of Linux infrastructures in critical environments.",
+    "cardItem2": "Design of CI/CD pipelines and automation of repetitive tasks using Python.",
+    "cardItem3": "Clear communication, documentation and collaboration with distributed teams."
+  },
+  "experience": {
+    "title": "Experience",
+    "job1Title": "DevOps / Systems Engineer",
+    "job1Place": "IBM Chile · 2024 – Present",
+    "job1Desc": "Administration of on-premise pre-production and production environments based on Linux (RHEL), ensuring availability and stability of critical services. Designed and implemented a monitoring platform with Checkmk from scratch, currently supervising more than 30 environments.",
+    "job2Title": "DevOps Engineer – Cloud & On-Prem Deployments",
+    "job2Place": "IBM Chile · Azure & OpenShift project",
+    "job2Desc": "Worked on a project focused on managing deployments to Azure and OpenShift environments. Built infrastructure as code with ARM templates, defined build and release pipelines and troubleshooted CI/CD deployment issues.",
+    "job3Title": "Automation Developer – Ticket integration",
+    "job3Place": "IBM Chile · Python & Azure Boards project",
+    "job3Desc": "Developed a solution to automate ticket synchronization between the client's ITSM platform and Azure Boards, using object-oriented Python and SOLID principles, integrating several APIs and handling errors and logging robustly."
+  },
+  "skills": { "...": "..." },
+  "portfolio": { "...": "..." },
+  "courses": { "...": "..." },
+  "footer": {
+    "title": "Shall we talk?",
+    "text": "If you would like to discuss opportunities, projects or how I could contribute to your team, feel free to email me:",
+    "button": "Send me an email",
+    "meta": "Benjamín Rodríguez · DevOps Engineer & Computer Science Engineer",
+    "copy": "Benjamín Rodríguez. All rights reserved."
+  }
+}

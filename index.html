@@ -5,638 +5,623 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0 user-scalable=no"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
     />
+
+    <title data-i18n="meta.title">
+      Benjamín Rodríguez • DevOps & Site Reliability
+    </title>
+
+    <!-- SEO básico -->
+    <meta
+      name="description"
+      content="Ingeniero Civil Informático y DevOps con experiencia en automatización, Linux, CI/CD y monitoreo. Abierto a oportunidades en Dinamarca."
+      data-i18n="meta.description"
+    />
+    <meta name="author" content="Benjamín Rodríguez" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Benjamín Rodríguez • DevOps & Site Reliability"
+    />
+    <meta
+      property="og:description"
+      content="DevOps Engineer con experiencia en automatización, entornos Linux y monitoreo. Interesado en oportunidades en Dinamarca."
+    />
+    <meta property="og:url" content="https://benjaesteban.github.io/" />
+    <meta
+      property="og:image"
+      content="https://benjaesteban.github.io/assets/img/benjamins.png"
+    />
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    />
+
+    <!-- Iconos -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap"
     />
 
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/img/B.png" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="mobileStyle.css" media="(max-width: 600px)" />
-    <link
-      rel="stylesheet"
-      href="tabletStyle.css"
-      media="(max-width: 900px) and (min-width: 601px)"
-    />
-    <title>Benjamin's Page</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
-    <!-- EFECTOS DE FONDO -->
-    <div class="bg"></div>
-    <div class="bg bg2"></div>
-    <div class="bg bg3"></div>
+    <!-- ========== HEADER / NAVBAR ========== -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#inicio" class="brand">
+          <span class="brand-logo">B</span>
+          <span class="brand-text">Benjamín</span>
+        </a>
 
-    <!-- SECCION I N I C I O -->
-
-    <section id="inicio">
-      <div class="contenido">
-        <header>
-          <div class="contenido-header">
-            <a href="#inicio"
-              ><img src="assets/img/logo.png" alt="Logo Benjamins"
-            /></a>
-            <nav id="nav" class="">
-              <ul id="links">
-                <li>
-                  <a
-                    href="#inicio"
-                    class="seleccionado"
-                    onclick="seleccionar(this)"
-                    data-section="header"
-                    data-value="inicio"
-                    >INICIO</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#contenido-sobremi"
-                    onclick="seleccionar(this)"
-                    data-section="header"
-                    data-value="sobremi"
-                    >SOBRE MI</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#servicios"
-                    onclick="seleccionar(this)"
-                    data-section="header"
-                    data-value="experiencia"
-                    >EXPERIENCIA</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="#portfolio"
-                    onclick="seleccionar(this)"
-                    data-section="header"
-                    data-value="portfolio"
-                    >PORTFOLIO</a
-                  >
-                </li>
-                <li class="curso-seleccionador">
-                  <a
-                    href="#cursos"
-                    onclick="seleccionar(this)"
-                    data-section="header"
-                    data-value="cursos"
-                    >CURSOS</a
-                  >
-                </li>
-                <li id="banderas" class="banderas">
-                  <div class="bandera-item" data-idioma="es">
-                    <img src="/assets/icons/espana.png" alt="icono de españa" />
-                  </div>
-                  <div class="bandera-item" data-idioma="en">
-                    <img
-                      src="/assets/icons/reino-unido.png"
-                      alt="icono del reino unido"
-                    />
-                  </div>
-                </li>
-              </ul>
-            </nav>
-
-            <!-- Icono del menu responsive  -->
-            <div id="icono-nav" onclick="responsiveMenu()">
-              <button class="nav-button">
-                <div class="nav-button-line-1"></div>
-                <div class="nav-button-line-2"></div>
-                <div class="nav-button-line-3"></div>
-              </button>
-            </div>
-          </div>
-        </header>
-        
-        <!-- SECCION S O B R E M I -->
-        <section id="sobremi">
-          <article class="contenedor-foto">
-            <img
-              class="pc-emoji"
-              src="assets/img/pcEmoji.png"
-              alt="Computer Emoji"
-            />
-            <img
-              class="guino-emoji"
-              src="assets/img/guinoEmoji.png"
-              alt="Hello Emoji"
-            />
-          </article>
-
-          <div class="intro-container">
-            <article class="sobremi">
-              <h3 data-section="inicio" data-value="saludo">
-                Hola!, Soy <span>Benjam&iacute;n Rodr&iacute;guez</span>
-              </h3>
-              <h4 data-section="inicio" data-value="estudio">
-                Ingeniero Civil Informático
-              </h4>
-              <p data-section="inicio" data-value="descripcion">
-                Con habilidades en <span>Python</span>, orquestaci&oacute;n de contenedores 
-                con <span>Kubernetes</span> y computaci&oacute;n
-                en la <span>Nube</span>.
-              </p>
-            </article>
-            <div class="intro-iconos">
-              <div class="icon-container">
-                <a
-                  href="https://www.linkedin.com/in/benjam%C3%ADn-rodr%C3%ADguez-valenzuela-a86685206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAuROqqhrSaGqZoZG6pZ0ug%3D%3D"
-                  ><i class="fa-brands fa-linkedin"></i
-                ></a>
-              </div>
-
-              <div class="icon-container">
-                <a href="https://github.com/BenjaEsteban"
-                  ><i class="fa-brands fa-github"></i
-                ></a>
-              </div>
-
-              <div class="icon-container">
-                <a href="https://www.instagram.com/benja_3steban/"
-                  ><i class="fa-brands fa-instagram-square"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </section>
-
-    <!-- SECCION S O B R E M I -->
-    <section id="contenido-sobremi">
-      <h2 data-section="sobremi" data-value="titulo">SOBRE MI</h2>
-      <article class="articulo-container">
-        <div class="texto-container">
-          <h4 data-section="sobremi" data-value="titulo2">
-            Ingeniero DevOps
-          </h4>
-          <p data-section="sobremi" data-value="parrafo1">
-            He acumulado experiencia
-            en diversos proyectos, que incluyen tanto trabajos
-            universitarios, personales y laborales.
-          </p>
-          <p data-section="sobremi" data-value="parrafo2">
-            Mi especialidad abarca la programación en Python, la orquestación de contenedores, computación en la nube y la configuración de entornos de CI/CD.
-          </p>
-          <p data-section="sobremi" data-value="parrafo3">
-            Además, he tenido la oportunidad de expandir mi conocimiento, 
-            mediante la implementación de infraestructura como código con 
-            <span>Terraform</span> y <span>Azure Resourse Manager</span>
-          </p>
-          <div class="contacto-container">
-            <span data-section="sobremi" data-value="contacto1">
-              Contáctame:
-            </span>
-            <p data-section="sobremi" data-value="contacto2">
-              Correo: b.esteban.r.v@gmail.com
-            </p>
-          </div>
-
+        <nav class="main-nav" aria-label="Navegación principal">
           <button
-            class="cv-boton"
-            data-section="sobremi"
-            data-value="botonDescarga"
+            class="nav-toggle"
+            aria-label="Abrir menú"
+            aria-expanded="false"
           >
-            Descargar CV
+            <span></span>
+            <span></span>
+          </button>
+
+          <ul class="nav-links">
+            <li>
+              <a
+                href="#inicio"
+                class="nav-link nav-link--active"
+                data-i18n="nav.home"
+              >
+                Inicio
+              </a>
+            </li>
+            <li>
+              <a href="#sobre-mi" class="nav-link" data-i18n="nav.about">
+                Sobre mí
+              </a>
+            </li>
+            <li>
+              <a
+                href="#experiencia"
+                class="nav-link"
+                data-i18n="nav.experience"
+              >
+                Experiencia
+              </a>
+            </li>
+            <li>
+              <a
+                href="#portfolio"
+                class="nav-link"
+                data-i18n="nav.portfolio"
+              >
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a href="#cursos" class="nav-link" data-i18n="nav.courses">
+                Cursos
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="lang-switcher" aria-label="Cambiar idioma">
+          <button class="lang-btn lang-btn--active" data-lang="es">
+            <span class="flag flag-es"></span> ES
+          </button>
+          <button class="lang-btn" data-lang="en">
+            <span class="flag flag-en"></span> EN
           </button>
         </div>
-        <div class="imagen-container">
-          <img src="assets/img/benjamins.png" alt="Foto personal" />
-        </div>
-      </article>
-    </section>
-
-    <!-- SECCION S E R V I C I O S -->
-
-    <section id="servicios">
-      <h3 class="titulo-seccion" data-section="experiencia" data-value="titulo">
-        Experiencia Universitaria y Laboral
-      </h3>
-      <div class="fila">
-        <div class="servicio">
-          <span class="icono"> <i class="fa-solid fa-code"></i></span>
-          <h4 data-section="experiencia" data-value="titulo1">
-            Automatización de procesos con Python
-          </h4>
-          <hr />
-          <ul class="servicios-tag">
-            <li>Python</li>
-            <li>SOLID</li>
-          </ul>
-          <p data-section="experiencia" data-value="descripcion1">
-            Colaboré en un proyecto que consistía en la automatización de transferencia de solicitudes entre dos servicios.
-            Esta automación se desarrlló en Python y siguiendo los principios SOLID.
-          </p>
-        </div>
-        <div class="servicio">
-          <span class="icono"><i class="fa-brands fa-react"></i></span>
-          <h4 data-section="experiencia" data-value="titulo2">
-            Implementación de IaC
-          </h4>
-          <hr />
-          <ul class="servicios-tag">
-            <li>Azure</li>
-            <li>ARM</li>
-          </ul>
-          <p data-section="experiencia" data-value="descripcion2">
-            Realicé la implementación de infraestructura a traves de Plantillas JSON usando el servicio 
-            ARM de Azure. Además, mediante proyectos personales he montado infraestructura mediante Terraform.
-          </p>
-        </div>
-        <div class="servicio">
-          <span class="icono"><i class="fa-brands fa-node-js"></i></span>
-          <h4 data-section="experiencia" data-value="titulo3">
-            Configuración de entornes CI/CD
-          </h4>
-          <hr />
-          <ul class="servicios-tag">
-            <li>Azure DevOps</li>
-            <li>Azure Pipelines</li>
-          </ul>
-          <p data-section="experiencia" data-value="descripcion3">
-            He colaborado en la configuración de entornos CI/CD utilizando los servicios de Azure DevOps. 
-            Esto mediante la creación de pipelines utilizando archivos YAML.
-          </p>
-        </div>
       </div>
-      <div class="fila">
-        <div class="servicio">
-          <span class="icono"><i class="fa-brands fa-python"></i></span>
-          <h4 data-section="experiencia" data-value="titulo4">
-            Programaci&oacute;n con Python
-          </h4>
-          <hr />
-          <ul class="servicios-tag">
-            <li>POO</li>
-            <li>Python</li>
-            <li>Machine Learning</li>
-          </ul>
-          <p data-section="experiencia" data-value="descripcion4">
-            Experiencia en el desarrollo de algoritmos y programación de redes
-            neuronales para la implementación de modelos de inteligencia
-            artificial.
-          </p>
-        </div>
-        <div class="servicio">
-          <span class="icono"><i class="fa-brands fa-apple"></i></span>
-          <h4 data-section="experiencia" data-value="titulo5">
-            Desarrollo IOS
-          </h4>
-          <hr />
-          <ul class="servicios-tag">
-            <li>Swift</li>
-            <li>Xcode</li>
-            <li>POO</li>
-          </ul>
-          <p data-section="experiencia" data-value="descripcion5">
-            Experiencia inicial en el desarrollo móvil con Swift, aplicando
-            conocimientos en la creación de un proyecto que replica la
-            calculadora del iPhone.
-          </p>
-        </div>
-        <div class="servicio">
-          <span class="icono"><i <i class="fa-solid fa-database"></i></span>
-          <h4 data-section="experiencia" data-value="titulo6">
-            Desarrollo de Bases de datos
-          </h4>
-          <hr />
-          <ul class="servicios-tag">
-            <li>SQL</li>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-          </ul>
-          <p data-section="experiencia" data-value="descripcion6">
-            Experiencia en programación en SQL y un gran dominio en el
-            modelamiento y creación de bases de datos, tanto relacionales como
-            no relacionales
-          </p>
-        </div>
-      </div>
-    </section>
+    </header>
 
-    <!-- SECCION H A B I L I D A D E S -->
-    <section class="contenedor-skills" id="skills">
-      <h3 data-section="habilidades" data-value="titulo">HABILIDADES</h3>
-      <div class="skill">
-        <div class="info">
-          <p><span class="lista"> </span>HTML & CSS</p>
-          <span class="porcentaje">75%</span>
-        </div>
+    <main>
+      <!-- ========== HERO / INICIO ========== -->
+      <section id="inicio" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <p class="hero-overline" data-i18n="hero.overline">
+              Ingeniería • DevOps • Cloud
+            </p>
 
-        <div class="barra">
-          <div class="" id="html"></div>
-        </div>
-      </div>
-      <div class="skill">
-        <div class="info">
-          <p><span class="lista"> </span>JavaScript</p>
-          <span class="porcentaje">85%</span>
-        </div>
+            <h1 class="hero-title" data-i18n="hero.title">
+              Hola, soy <span>Benjamín Rodríguez</span>
+            </h1>
 
-        <div class="barra">
-          <div class="" id="js"></div>
-        </div>
-      </div>
-      <div class="skill">
-        <div class="info">
-          <p><span class="lista"> </span>SQL</p>
-          <span class="porcentaje">80%</span>
-        </div>
+            <h2 class="hero-subtitle" data-i18n="hero.subtitle">
+              Ingeniero Civil Informático &amp; DevOps Engineer
+            </h2>
 
-        <div class="barra">
-          <div class="" id="bd"></div>
-        </div>
-      </div>
-      <div class="skill">
-        <div class="info">
-          <p><span class="lista"> </span>Python</p>
-          <span class="porcentaje">90%</span>
-        </div>
+            <p class="hero-description" data-i18n="hero.description">
+              Diseño, automatizo y monitorizo infraestructuras basadas en
+              Linux, Kubernetes y Azure, con foco en confiabilidad, buenas
+              prácticas y colaboración con equipos internacionales.
+            </p>
 
-        <div class="barra">
-          <div class="" id="ps"></div>
-        </div>
-      </div>
-      <div class="skill">
-        <div class="info">
-          <p><span class="lista"> </span>Swift</p>
-          <span class="porcentaje">65%</span>
-        </div>
+            <div class="hero-actions">
+              <a
+                href="assets/cv/Benjamin_Rodriguez_CV.pdf"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="hero.btnCv"
+              >
+                <i class="fa-solid fa-file-arrow-down"></i>
+                Descargar CV
+              </a>
 
-        <div class="barra">
-          <div class="" id="swift"></div>
-        </div>
-      </div>
-    </section>
+              <a
+                href="#portfolio"
+                class="btn btn-ghost"
+                data-i18n="hero.btnProjects"
+              >
+                <i class="fa-solid fa-arrow-down"></i>
+                Ver proyectos
+              </a>
+            </div>
 
-    <!-- SECCION PORTAFOLIO -->
-    <section id="portfolio">
-      <h3 class="titulo-seccion" data-section="proyectos" data-value="titulo">
-        Mis Proyectos
-      </h3>
-      <div class="fila">
-        <div class="proyecto">
-          <img src="assets/img/bitcoin.png" alt="Web de Bitcoin-Page" />
-          <div class="info">
-            <h4 data-section="proyectos" data-value="descripcion1">
-              Modelo de página web orientado a la compra y venta de
-              Criptomonedas
-            </h4>
-            <p>HTML & CSS</p>
-            <a href="https://benjaesteban.github.io/Bitcoin-Page/"
-              ><button data-section="proyectos" data-value="pagina">
-                <span></span> P&aacute;gina web
-              </button></a
-            >
-            <a href="https://github.com/BenjaEsteban/Bitcoin-Page"
-              ><button data-section="proyectos" data-value="codigo">
-                <span></span> C&oacute;digo
-              </button></a
-            >
+            <div class="hero-meta">
+              <span class="chip" data-i18n="hero.available">
+                Disponible para oportunidades
+              </span>
+              <span class="hero-location" data-i18n="hero.location">
+                <i class="fa-solid fa-location-dot"></i>
+                Santiago, Chile · Pronto en Dinamarca
+              </span>
+            </div>
           </div>
-        </div>
-        <div class="proyecto">
-          <img src="assets/img/task_manager.png" alt="Web Task Manager" />
-          <div class="info">
-            <h4 data-section="proyectos" data-value="descripcion2">
-              Herramienta para gestionar tareas personales
-            </h4>
-            <p>React & Vite.js</p>
-            <a href="https://benjaesteban.github.io/Task-manager-with-React/"
-              ><button data-section="proyectos" data-value="pagina">
-                <span></span> P&aacute;gina web
-              </button></a
-            >
-            <a href="https://github.com/BenjaEsteban/Task-manager-with-React"
-              ><button data-section="proyectos" data-value="codigo">
-                <span></span> C&oacute;digo
-              </button></a
-            >
-          </div>
-        </div>
-        <div class="proyecto">
-          <img src="assets/img/qr_generator.png" alt="Web QR Generator" />
-          <div class="info">
-            <h4 data-section="proyectos" data-value="descripcion3">
-              Generador de c&oacute;digos QR a partir de una URL o String
-            </h4>
-            <p>JavaScript</p>
-            <a href="https://benjaesteban.github.io/QR-Generator/"
-              ><button data-section="proyectos" data-value="pagina">
-                <span></span> P&aacute;gina web
-              </button></a
-            >
-            <a href="https://github.com/BenjaEsteban/QR-Generator"
-              ><button data-section="proyectos" data-value="codigo">
-                <span></span> C&oacute;digo
-              </button></a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="fila">
-        <div class="proyecto">
-          <img src="assets/img/async_landing.png" alt="" />
-          <div class="info">
-            <h4 data-section="proyectos" data-value="descripcion4">
-              Información de los planetas del Sistema Solar
-            </h4>
-            <p>JavaScript Asincron&iacute;smo</p>
-            <a href="https://benjaesteban.github.io/Async-landing/"
-              ><button data-section="proyectos" data-value="pagina">
-                <span></span> P&aacute;gina web
-              </button></a
-            >
-            <a href="https://github.com/BenjaEsteban/Async-landing"
-              ><button data-section="proyectos" data-value="codigo">
-                <span></span> C&oacute;digo
-              </button></a
-            >
-          </div>
-        </div>
-        <div class="proyecto">
-          <img
-            src="assets/img/javascript_game.png"
-            alt="Juego hecho con JavaScript"
-          />
-          <div class="info">
-            <h4 data-section="proyectos" data-value="descripcion5">
-              Pequeño juego de laberintos
-            </h4>
-            <p>JavaScript, HTML & CSS</p>
-            <a href="https://benjaesteban.github.io/JavaScript-Game/"
-              ><button data-section="proyectos" data-value="pagina">
-                <span></span> P&aacute;gina web
-              </button></a
-            >
-            <a href="https://github.com/BenjaEsteban/JavaScript-Game"
-              ><button data-section="proyectos" data-value="codigo">
-                <span></span> C&oacute;digo
-              </button></a
-            >
-          </div>
-        </div>
-        <div class="proyecto">
-          <img src="assets/img/backend.png" alt="Proyecto BackEnd" />
 
-          <div class="info">
-            <h4 data-section="proyectos" data-value="descripcion6">
-              Servidor de un sistema de evidencias universitaria
-            </h4>
-            <p>NodeJS ExpressJS</p>
-            <a
-              href="https://github.com/BenjaEsteban/Proyecto-Acre-Version-Servidor"
-              ><button data-section="proyectos" data-value="codigo">
-                <span></span> C&oacute;digo
-              </button></a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECCTION C E R T I F I C A D O S -->
-    <section id="cursos">
-      <h3 class="titulo-seccion" data-section="cursos" data-value="titulo">
-        Cursos realizados
-      </h3>
-      <div class="contenedor-form">
-        <section class="emoji-section">
-          <img src="assets/img/ideaEmoji.png" alt="Emoji de idea brillante" />
-        </section>
-        <section class="cursos-section">
-          <ul class="lista-cursos-section">
-            <h3>Platzi Academy 📚:</h3>
-            <li>
-              <img src="assets/img/reactCourse.png" alt="" />
-              <a
-                href="https://platzi.com/p/Benjamin_Esteban/curso/7395-react/diploma/detalle/"
-              >
-                <p data-section="cursos" data-value="curso1">
-                  Curso de React.js
-                </p>
-              </a>
-            </li>
-            <li>
-              <img src="assets/img/githubCourse.png" alt="" />
-              <a
-                href="https://platzi.com/p/Benjamin_Esteban/curso/1557-course/diploma/detalle/"
-              >
-                <p data-section="cursos" data-value="curso2">
-                  Curso Profesional de Git y GitHub
-                </p>
-              </a>
-            </li>
-            <li>
-              <img src="assets/img/practicHtmlCss.png" alt="" />
-              <a
-                href="https://platzi.com/p/Benjamin_Esteban/curso/1758-course/diploma/detalle/"
-              >
-                <p data-section="cursos" data-value="curso3">
-                  Curso Pr&aacute;ctico de HTML y CSS
-                </p>
-              </a>
-            </li>
-            <li>
-              <img src="assets/img/patronesCourse.png" alt="" />
-              <a
-                href="https://platzi.com/p/Benjamin_Esteban/curso/6735-patrones-diseno-software/diploma/detalle/"
-              >
-                <p data-section="cursos" data-value="curso4">
-                  Curso de Introducci&oacute;n a los Patrones de Diseño de
-                  Software
-                </p>
-              </a>
-            </li>
-            <li>
-              <img src="assets/img/asincronismo.png" alt="" />
-              <a
-                href="https://platzi.com/p/Benjamin_Esteban/curso/3175-asincronismo-js/diploma/detalle/"
-              >
-                <p data-section="cursos" data-value="curso5">
-                  Curso de Asincron&iacute;smo con JavaScript
-                </p>
-              </a>
-            </li>
-            <li>
-              <img src="assets/img/dockerCourse.png" alt="" />
-              <a
-                href="https://platzi.com/p/Benjamin_Esteban/curso/2066-docker/diploma/detalle/"
-              >
-                <p data-section="cursos" data-value="curso6">Curso de Docker</p>
-              </a>
-            </li>
-            <li>
-              <img src="assets/img/expreRegulares.png" alt="" />
-              <a
-                href="https://platzi.com/p/Benjamin_Esteban/curso/1301-course/diploma/detalle/"
-              >
-                <p data-section="cursos" data-value="curso7">
-                  Curso de Expresiones Regulares
-                </p>
-              </a>
-            </li>
-            <li>
-              <img src="assets/img/javaScriptPractic.png" alt="" />
-              <a
-                href="https://platzi.com/p/Benjamin_Esteban/curso/3271-course/diploma/detalle/"
-              >
-                <p data-section="cursos" data-value="curso8">
-                  Curso Pr&aacute;ctico de JavaScript
-                </p>
-              </a>
-            </li>
-            <li>
+          <div class="hero-card">
+            <div class="hero-photo-wrapper">
               <img
-                src="assets/img/responsive.png"
-                alt="Curso de Diseño responsivo"
+                src="assets/img/benjamins.png"
+                alt="Foto de Benjamín Rodríguez"
+                class="hero-photo"
+                loading="lazy"
               />
-              <a
-                href="https://platzi.com/p/Benjamin_Esteban/curso/2030-course/diploma/detalle/"
-              >
-                <p data-section="cursos" data-value="curso9">
-                  Curso de Diseño responsivo: Mobile First
+            </div>
+
+            <div class="hero-card-body">
+              <p class="hero-role" data-i18n="hero.role">
+                DevOps • Monitoreo • Automatización
+              </p>
+
+              <ul class="hero-tags">
+                <li data-i18n="hero.tag1">Kubernetes</li>
+                <li data-i18n="hero.tag2">Docker</li>
+                <li data-i18n="hero.tag3">Python</li>
+                <li data-i18n="hero.tag4">Checkmk</li>
+              </ul>
+
+              <div class="hero-social">
+                <a
+                  href="https://www.linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://github.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ========== SOBRE MÍ ========== -->
+      <section id="sobre-mi" class="section section-alt">
+        <div class="container about-inner">
+          <div class="about-text">
+            <h2 data-i18n="about.title">Sobre mí</h2>
+
+            <p data-i18n="about.p1">
+              Soy Ingeniero Civil Informático con experiencia práctica en
+              DevOps, automatización y administración de entornos Linux.
+              Disfruto trabajar en plataformas donde la confiabilidad, la
+              observabilidad y la mejora continua son fundamentales.
+            </p>
+
+            <p data-i18n="about.p2">
+              He participado en proyectos que van desde la automatización de
+              flujos empresariales con Python, hasta la
+              gestión de despliegues en Azure y OpenShift, y la operación de
+              entornos on-premise pre-productivos. Me siento cómodo trabajando
+              en inglés y estoy especialmente interesado en aportar en equipos
+              de trabajo en Dinamarca.
+            </p>
+
+            <div class="about-highlights">
+              <div class="about-highlight">
+                <span
+                  class="about-label"
+                  data-i18n="about.roleLabel"
+                  >Rol actual</span
+                >
+                <span
+                  class="about-value"
+                  data-i18n="about.roleValue"
+                  >DevOps / Systems Engineer</span
+                >
+              </div>
+              <div class="about-highlight">
+                <span
+                  class="about-label"
+                  data-i18n="about.expLabel"
+                  >Experiencia</span
+                >
+                <span
+                  class="about-value"
+                  data-i18n="about.expValue"
+                  >+2 años en entornos pre-productivos</span
+                >
+              </div>
+              <div class="about-highlight">
+                <span
+                  class="about-label"
+                  data-i18n="about.interestsLabel"
+                  >Intereses</span
+                >
+                <span
+                  class="about-value"
+                  data-i18n="about.interestsValue"
+                  >Cloud, SRE, monitoreo, automatización</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <aside class="about-card">
+            <h3 data-i18n="about.cardTitle">Cómo puedo aportar en tu equipo</h3>
+            <ul class="about-list">
+              <li data-i18n="about.cardItem1">
+                <i class="fa-solid fa-check"></i>
+                Operación y monitoreo de infraestructuras Linux en entornos
+                críticos.
+              </li>
+              <li data-i18n="about.cardItem2">
+                <i class="fa-solid fa-check"></i>
+                Diseño de pipelines de CI/CD y automatización de tareas
+                repetitivas con Python.
+              </li>
+              <li data-i18n="about.cardItem3">
+                <i class="fa-solid fa-check"></i>
+                Comunicación clara, documentación y trabajo colaborativo con
+                equipos distribuidos.
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <!-- ========== EXPERIENCIA ========== -->
+      <section id="experiencia" class="section">
+        <div class="container">
+          <h2 data-i18n="experience.title">Experiencia</h2>
+
+          <div class="timeline">
+            <!-- Rol actual -->
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3 data-i18n="experience.job1Title">
+                  DevOps / Systems Engineer
+                </h3>
+                <p class="timeline-meta" data-i18n="experience.job1Place">
+                  IBM Chile · 2024 – Actualidad
                 </p>
-              </a>
-            </li>
-          </ul>
-        </section>
-      </div>
-    </section>
+                <p data-i18n="experience.job1Desc">
+                  Administración de entornos on-premise pro-productivos y
+                  productivos basados en Linux (RHEL), asegurando disponibilidad
+                  y estabilidad de servicios críticos. Diseño e implementación
+                  desde cero de un sistema de monitoreo con Checkmk que
+                  supervisa más de 30 entornos.
+                </p>
+                <ul class="timeline-tags">
+                  <li>RHEL 7/8</li>
+                  <li>Checkmk</li>
+                  <li>Monitoring</li>
+                  <li>Incident management</li>
+                </ul>
+              </div>
+            </article>
 
-    <!-- SECCION FOOTER -->
-    <footer id="footer">
-      <h4 data-section="footer" data-value="titulo">
-        "Innovando para un Futuro Brillante"
-      </h4>
-      <div class="redes">
-        <a
-          href="https://www.linkedin.com/in/benjam%C3%ADn-rodr%C3%ADguez-valenzuela-a86685206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAuROqqhrSaGqZoZG6pZ0ug%3D%3D"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
-        <a href="https://github.com/BenjaEsteban"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a href="https://www.instagram.com/benja_3steban/"
-          ><i class="fa-brands fa-instagram-square"></i
-        ></a>
+            <!-- Proyecto despliegues Cloud/On-Prem -->
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3 data-i18n="experience.job2Title">
+                  DevOps Engineer – Despliegues Cloud &amp; On-Premise
+                </h3>
+                <p class="timeline-meta" data-i18n="experience.job2Place">
+                  IBM Chile · Proyecto Azure &amp; OpenShift
+                </p>
+                <p data-i18n="experience.job2Desc">
+                  Participación en un proyecto centrado en la gestión de
+                  despliegues hacia entornos Azure y OpenShift. Creación de
+                  infraestructura como código con ARM Templates, definición de
+                  pipelines de build y release, y resolución de errores en
+                  despliegues CI/CD.
+                </p>
+                <ul class="timeline-tags">
+                  <li>Azure</li>
+                  <li>ARM Templates</li>
+                  <li>CI/CD</li>
+                  <li>OpenShift</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- Proyecto automatización tickets -->
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3 data-i18n="experience.job3Title">
+                  Automation Developer – Integración de tickets
+                </h3>
+                <p class="timeline-meta" data-i18n="experience.job3Place">
+                  IBM Chile · Proyecto Python &amp; Azure Boards
+                </p>
+                <p data-i18n="experience.job3Desc">
+                  Desarrollo de una solución para automatizar la sincronización
+                  de tickets entre la plataforma del cliente y Azure Boards,
+                  aplicando programación orientada a objetos y principios SOLID
+                  en Python, integrando múltiples APIs y manejando errores y
+                  logging de forma robusta.
+                </p>
+                <ul class="timeline-tags">
+                  <li>Python</li>
+                  <li>OOP &amp; SOLID</li>
+                  <li>Azure Boards</li>
+                  <li>API integration</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- ========== SKILLS ========== -->
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2 data-i18n="skills.title">Tech Stack</h2>
+
+          <div class="skills-grid">
+            <div class="skills-group">
+              <h3 data-i18n="skills.group1Title">DevOps &amp; Cloud</h3>
+              <ul>
+                <li data-i18n="skills.group1Item1">Kubernetes · Docker</li>
+                <li data-i18n="skills.group1Item2">CI/CD · Azure DevOps</li>
+                <li data-i18n="skills.group1Item3">
+                  Monitoring and observability
+                </li>
+              </ul>
+            </div>
+
+            <div class="skills-group">
+              <h3 data-i18n="skills.group2Title">Backend &amp; Scripting</h3>
+              <ul>
+                <li data-i18n="skills.group2Item1">Python</li>
+                <li data-i18n="skills.group2Item2">Bash scripting</li>
+                <li data-i18n="skills.group2Item3">APIs REST</li>
+              </ul>
+            </div>
+
+            <div class="skills-group">
+              <h3 data-i18n="skills.group3Title">Infrastructure</h3>
+              <ul>
+                <li data-i18n="skills.group3Item1">Linux (RHEL)</li>
+                <li data-i18n="skills.group3Item2">
+                  Application servers
+                </li>
+                <li data-i18n="skills.group3Item3">
+                  On-premise environments &amp; Cloud
+                </li>
+              </ul>
+            </div>
+
+            <div class="skills-group">
+              <h3 data-i18n="skills.group4Title">Tools</h3>
+              <ul>
+                <li data-i18n="skills.group4Item1">Checkmk</li>
+                <li data-i18n="skills.group4Item2">Git · GitHub</li>
+                <li data-i18n="skills.group4Item3">n8n, VS Code and more</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== PORTFOLIO ========== -->
+      <section id="portfolio" class="section">
+        <div class="container">
+          <h2 data-i18n="portfolio.title">Portfolio</h2>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-thumb">
+                <img
+                  src="assets/img/bitcoin.png"
+                  alt="Captura de Bitcoin Page"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <h3 data-i18n="portfolio.project1Title">Bitcoin Page</h3>
+                <p data-i18n="portfolio.project1Desc">
+                  Landing page informativa sobre Bitcoin, enfocada en diseño
+                  limpio, estructura clara y maquetación responsive.
+                </p>
+                <ul class="project-tags">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Responsive</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-thumb">
+                <img
+                  src="assets/img/task_manager.png"
+                  alt="Captura de Task Manager"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-body">
+                <h3 data-i18n="portfolio.project2Title">Task Manager</h3>
+                <p data-i18n="portfolio.project2Desc">
+                  Aplicación sencilla para gestionar tareas, utilizada para
+                  practicar interacción en frontend, estados y componentes.
+                </p>
+                <ul class="project-tags">
+                  <li>JavaScript</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== CURSOS ========== -->
+<!--      <section id="cursos" class="section section-alt">
+        <div class="container">
+          <h2 data-i18n="courses.title">Cursos &amp; formación</h2>
+
+          <div class="courses-grid">
+            <article class="course-card">
+              <h3 data-i18n="courses.card1Title">DevOps &amp; Cloud</h3>
+              <p data-i18n="courses.card1Desc">
+                Formación enfocada en pipelines, despliegues automatizados y
+                buenas prácticas para entornos productivos.
+              </p>
+              <ul>
+                <li data-i18n="courses.card1Item1">Introducción a DevOps</li>
+                <li data-i18n="courses.card1Item2">Fundamentos de Cloud</li>
+                <li data-i18n="courses.card1Item3">
+                  Herramientas de monitoreo
+                </li>
+              </ul>
+            </article>
+
+            <article class="course-card">
+              <h3 data-i18n="courses.card2Title">
+                Python &amp; automatización
+              </h3>
+              <p data-i18n="courses.card2Desc">
+                Uso de Python para scripts, automatización de procesos y
+                construcción de pequeñas herramientas internas.
+              </p>
+              <ul>
+                <li data-i18n="courses.card2Item1">Fundamentos de Python</li>
+                <li data-i18n="courses.card2Item2">
+                  Automatización con scripts
+                </li>
+                <li data-i18n="courses.card2Item3">Consumo de APIs</li>
+              </ul>
+            </article>
+
+            <article class="course-card">
+              <h3 data-i18n="courses.card3Title">
+                Inglés &amp; habilidades blandas
+              </h3>
+              <p data-i18n="courses.card3Desc">
+                Enfoque en comunicación efectiva, trabajo en equipo y mejora del
+                nivel de inglés para colaborar con equipos internacionales.
+              </p>
+              <ul>
+                <li data-i18n="courses.card3Item1">
+                  Inglés conversacional orientado a TI
+                </li>
+                <li data-i18n="courses.card3Item2">
+                  Comunicación en equipos remotos
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+      -->
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer id="contacto" class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-main">
+          <h2 data-i18n="footer.title">¿Hablamos?</h2>
+          <p data-i18n="footer.text">
+            Si quieres conversar sobre oportunidades, proyectos o simplemente
+            explorar cómo podría aportar en tu equipo, puedes escribirme directamente:
+          </p>
+          <a
+            href="mailto:tu.correo@ejemplo.com"
+            class="btn btn-primary"
+            data-i18n="footer.button"
+          >
+            <i class="fa-solid fa-envelope"></i>
+            Enviarme un correo
+          </a>
+        </div>
+
+        <div class="footer-meta">
+          <p data-i18n="footer.meta">
+            Benjamín Rodríguez · DevOps Engineer &amp; Computer Science
+            Engineer
+          </p>
+          <div class="footer-social">
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <p class="footer-copy">
+            © <span id="year"></span>
+            <span data-i18n="footer.copy">
+              Benjamín Rodríguez. Todos los derechos reservados.
+            </span>
+          </p>
+        </div>
       </div>
+
+      <script src="js/main.js"></script>
     </footer>
-
-    <script src="script.js"></script>
   </body>
 </html>
