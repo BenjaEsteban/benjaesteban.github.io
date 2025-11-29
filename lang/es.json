@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Benjamín Rodríguez • DevOps & Site Reliability",
+    "description": "Ingeniero Civil Informático y DevOps con experiencia en automatización, Linux, CI/CD y monitoreo. Abierto a oportunidades en Dinamarca."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "portfolio": "Portfolio",
+    "courses": "Cursos"
+  },
+  "hero": {
+    "overline": "Ingeniería • DevOps • Cloud",
+    "title": "Hola, soy <span>Benjamín Rodríguez</span>",
+    "subtitle": "Ingeniero Civil Informático &amp; DevOps Engineer",
+    "description": "Diseño, automatizo y monitorizo infraestructuras basadas en Linux, Kubernetes y Azure, con foco en confiabilidad, buenas prácticas y colaboración con equipos internacionales.",
+    "btnCv": "Descargar CV",
+    "btnProjects": "Ver proyectos",
+    "available": "Disponible para oportunidades",
+    "location": "Santiago, Chile · Pronto en Dinamarca",
+    "role": "DevOps • Monitoreo • Automatización",
+    "tag1": "Kubernetes",
+    "tag2": "Docker",
+    "tag3": "Python",
+    "tag4": "Checkmk"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "p1": "Soy Ingeniero Civil Informático con experiencia práctica en DevOps, automatización y administración de entornos Linux. Disfruto trabajar en plataformas donde la confiabilidad, la observabilidad y la mejora continua son fundamentales.",
+    "p2": "He participado en proyectos que van desde la automatización de flujos empresariales con Python, hasta la gestión de despliegues en Azure y OpenShift, y la operación de entornos on-premise pre-productivos. Me siento cómodo trabajando en inglés y estoy especialmente interesado en aportar en equipos de trabajo en Dinamarca.",
+    "roleLabel": "Rol actual",
+    "roleValue": "DevOps / Systems Engineer",
+    "expLabel": "Experiencia",
+    "expValue": "+2 años en entornos pre-productivos",
+    "interestsLabel": "Intereses",
+    "interestsValue": "Cloud, SRE, monitoreo, automatización",
+    "cardTitle": "Cómo puedo aportar en tu equipo",
+    "cardItem1": "Operación y monitoreo de infraestructuras Linux en entornos críticos.",
+    "cardItem2": "Diseño de pipelines de CI/CD y automatización de tareas repetitivas con Python.",
+    "cardItem3": "Comunicación clara, documentación y trabajo colaborativo con equipos distribuidos."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "job1Title": "DevOps / Systems Engineer",
+    "job1Place": "IBM Chile · 2024 – Actualidad",
+    "job1Desc": "Administración de entornos on-premise pro-productivos y productivos basados en Linux (RHEL), asegurando disponibilidad y estabilidad de servicios críticos. Diseño e implementación desde cero de un sistema de monitoreo con Checkmk que supervisa más de 30 entornos.",
+    "job2Title": "DevOps Engineer – Despliegues Cloud & On-Premise",
+    "job2Place": "IBM Chile · Proyecto Azure & OpenShift",
+    "job2Desc": "Participación en un proyecto centrado en la gestión de despliegues hacia entornos Azure y OpenShift. Creación de infraestructura como código con ARM Templates, definición de pipelines de build y release, y resolución de errores en despliegues CI/CD.",
+    "job3Title": "Automation Developer – Integración de tickets",
+    "job3Place": "IBM Chile · Proyecto Python & Azure Boards",
+    "job3Desc": "Desarrollo de una solución para automatizar la sincronización de tickets entre la plataforma del cliente y Azure Boards, aplicando programación orientada a objetos y principios SOLID en Python, integrando múltiples APIs y manejando errores y logging de forma robusta."
+  },
+  "skills": { "...": "..." },
+  "portfolio": { "...": "..." },
+  "courses": { "...": "..." },
+  "footer": {
+    "title": "¿Hablamos?",
+    "text": "Si quieres conversar sobre oportunidades, proyectos o simplemente explorar cómo podría aportar en tu equipo, puedes escribirme directamente:",
+    "button": "Enviarme un correo",
+    "meta": "Benjamín Rodríguez · DevOps Engineer & Computer Science Engineer",
+    "copy": "Benjamín Rodríguez. Todos los derechos reservados."
+  }
+}
