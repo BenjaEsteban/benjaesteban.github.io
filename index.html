@@ -1,518 +1,409 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
 
-    <title data-i18n="meta.title">
-      Benjamín Rodríguez • DevOps & Site Reliability
-    </title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
-    <!-- SEO básico -->
-    <meta
-      name="description"
-      content="Ingeniero Civil Informático y DevOps con experiencia en automatización, Linux, CI/CD y monitoreo. Abierto a oportunidades en Dinamarca."
-      data-i18n="meta.description"
-    />
-    <meta name="author" content="Benjamín Rodríguez" />
+  <title data-i18n="meta.title">
+    Benjamín Rodríguez • DevOps & Site Reliability
+  </title>
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Benjamín Rodríguez • DevOps & Site Reliability"
-    />
-    <meta
-      property="og:description"
-      content="DevOps Engineer con experiencia en automatización, entornos Linux y monitoreo. Interesado en oportunidades en Dinamarca."
-    />
-    <meta property="og:url" content="https://benjaesteban.github.io/" />
-    <meta
-      property="og:image"
-      content="https://benjaesteban.github.io/assets/img/benjamins.png"
-    />
+  <!-- SEO básico -->
+  <meta name="description"
+    content="Computer Civil Engineer and DevOps professional with experience in automation, Linux, CI/CD, and monitoring. Open to opportunities in Denmark."
+    data-i18n="meta.description" />
+  <meta name="author" content="Benjamín Rodríguez" />
 
-    <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
-    />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Benjamín Rodríguez • DevOps & Site Reliability" />
+  <meta property="og:description"
+    content="DevOps Engineer with experience in automation, Linux environments, and monitoring. Interested in opportunities in Denmark." />
+  <meta property="og:url" content="https://benjaesteban.github.io/" />
+  <meta property="og:image" content="https://benjaesteban.github.io/assets/img/benjamins.png" />
 
-    <!-- Iconos -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/img/B.png" />
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/img/B.png" />
 
-  <body>
-    <!-- ========== HEADER / NAVBAR ========== -->
-    <header class="site-header">
-      <div class="container header-inner">
-        <a href="#inicio" class="brand">
-          <span class="brand-logo">B</span>
-          <span class="brand-text">Benjamín</span>
-        </a>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
 
-        <nav class="main-nav" aria-label="Navegación principal">
-          <button
-            class="nav-toggle"
-            aria-label="Abrir menú"
-            aria-expanded="false"
-          >
-            <span></span>
-            <span></span>
-          </button>
+<body>
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand">
+        <span class="brand-logo">B</span>
+        <span class="brand-text">Benjamín</span>
+      </a>
 
-          <ul class="nav-links">
-            <li>
-              <a
-                href="#inicio"
-                class="nav-link nav-link--active"
-                data-i18n="nav.home"
-              >
-                Inicio
+      <nav class="main-nav" aria-label="Navegación principal">
+        <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="nav-links">
+          <li>
+            <a href="#inicio" class="nav-link nav-link--active" data-i18n="nav.home">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#sobre-mi" class="nav-link" data-i18n="nav.about">
+              About me
+            </a>
+          </li>
+          <li>
+            <a href="#experiencia" class="nav-link" data-i18n="nav.experience">
+              Experience
+            </a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link" data-i18n="nav.portfolio">
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a href="#cursos" class="nav-link" data-i18n="nav.courses">
+              Courses
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="lang-switcher" aria-label="Cambiar idioma">
+        <button class="lang-btn lang-btn--active" data-lang="es">
+          <span class="flag flag-es"></span> ES
+        </button>
+        <button class="lang-btn" data-lang="en">
+          <span class="flag flag-en"></span> EN
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== HERO / INICIO ========== -->
+    <section id="inicio" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-overline" data-i18n="hero.overline">
+            Engineering • DevOps • Cloud
+          </p>
+
+          <h1 class="hero-title" data-i18n="hero.title">
+            Hi, I'm <span>Benjamín Rodríguez</span>
+          </h1>
+
+          <h2 class="hero-subtitle" data-i18n="hero.subtitle">
+            Computer Science Engineer & DevOps Engineer
+          </h2>
+
+          <p class="hero-description" data-i18n="hero.description">
+            I design, automate and monitor infrastructures based on Linux, Kubernetes and Azure, with a strong focus on
+            reliability, best practices and collaboration with international teams.
+          </p>
+
+          <div class="hero-actions">
+            <a href="assets/CV - Benjamin Rodriguez.pdf" class="btn btn-primary" target="_blank"
+              rel="noopener noreferrer" data-i18n="hero.btnCv">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              Download CV
+            </a>
+
+            <a href="#portfolio" class="btn btn-ghost" data-i18n="hero.btnProjects">
+              <i class="fa-solid fa-arrow-down"></i>
+              View projects
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span class="chip" data-i18n="hero.available">
+              Open to new opportunities
+            </span>
+            <span class="hero-location" data-i18n="hero.location">
+              <i class="fa-solid fa-location-dot"></i>
+              Santiago, Chile · Coming soon to Denmark
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-photo-wrapper">
+            <img src="assets/img/benjamins.png" alt="Foto de Benjamín Rodríguez" class="hero-photo" loading="lazy" />
+          </div>
+
+          <div class="hero-card-body">
+            <p class="hero-role" data-i18n="hero.role">
+              DevOps • Monitoring • Automation
+            </p>
+
+            <ul class="hero-tags">
+              <li data-i18n="hero.tag1">Kubernetes</li>
+              <li data-i18n="hero.tag2">Docker</li>
+              <li data-i18n="hero.tag3">Python</li>
+              <li data-i18n="hero.tag4">Checkmk</li>
+            </ul>
+
+            <div class="hero-social">
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
               </a>
-            </li>
-            <li>
-              <a href="#sobre-mi" class="nav-link" data-i18n="nav.about">
-                Sobre mí
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
               </a>
-            </li>
-            <li>
-              <a
-                href="#experiencia"
-                class="nav-link"
-                data-i18n="nav.experience"
-              >
-                Experiencia
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
               </a>
-            </li>
-            <li>
-              <a
-                href="#portfolio"
-                class="nav-link"
-                data-i18n="nav.portfolio"
-              >
-                Portfolio
-              </a>
-            </li>
-            <li>
-              <a href="#cursos" class="nav-link" data-i18n="nav.courses">
-                Cursos
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="lang-switcher" aria-label="Cambiar idioma">
-          <button class="lang-btn lang-btn--active" data-lang="es">
-            <span class="flag flag-es"></span> ES
-          </button>
-          <button class="lang-btn" data-lang="en">
-            <span class="flag flag-en"></span> EN
-          </button>
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+    </section>
+    <!-- ========== SOBRE MÍ ========== -->
+    <section id="sobre-mi" class="section section-alt">
+      <div class="container about-inner">
+        <div class="about-text">
+          <h2 data-i18n="about.title">About me</h2>
 
-    <main>
-      <!-- ========== HERO / INICIO ========== -->
-      <section id="inicio" class="hero">
-        <div class="container hero-inner">
-          <div class="hero-text">
-            <p class="hero-overline" data-i18n="hero.overline">
-              Ingeniería • DevOps • Cloud
-            </p>
+          <p data-i18n="about.p1">
+            I am a Computer Science Engineer with hands-on experience in DevOps, automation and Linux environments. I
+            enjoy working on platforms where reliability, observability and continuous improvement are key.
+          </p>
 
-            <h1 class="hero-title" data-i18n="hero.title">
-              Hola, soy <span>Benjamín Rodríguez</span>
-            </h1>
+          <p data-i18n="about.p2">
+            I have contributed to projects ranging from business process automation with Python, to deployment
+            management in Azure and OpenShift, and the operation of on-premise pre-production environments. I feel
+            comfortable working in English and I am especially interested in joining teams based in Denmark.
+          </p>
 
-            <h2 class="hero-subtitle" data-i18n="hero.subtitle">
-              Ingeniero Civil Informático &amp; DevOps Engineer
-            </h2>
-
-            <p class="hero-description" data-i18n="hero.description">
-              Diseño, automatizo y monitorizo infraestructuras basadas en
-              Linux, Kubernetes y Azure, con foco en confiabilidad, buenas
-              prácticas y colaboración con equipos internacionales.
-            </p>
-
-            <div class="hero-actions">
-              <a
-                href="assets/cv/Benjamin_Rodriguez_CV.pdf"
-                class="btn btn-primary"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-i18n="hero.btnCv"
-              >
-                <i class="fa-solid fa-file-arrow-down"></i>
-                Descargar CV
-              </a>
-
-              <a
-                href="#portfolio"
-                class="btn btn-ghost"
-                data-i18n="hero.btnProjects"
-              >
-                <i class="fa-solid fa-arrow-down"></i>
-                Ver proyectos
-              </a>
+          <div class="about-highlights">
+            <div class="about-highlight">
+              <span class="about-label" data-i18n="about.roleLabel">Current role</span>
+              <span class="about-value" data-i18n="about.roleValue">DevOps / Systems Engineer</span>
             </div>
-
-            <div class="hero-meta">
-              <span class="chip" data-i18n="hero.available">
-                Disponible para oportunidades
-              </span>
-              <span class="hero-location" data-i18n="hero.location">
-                <i class="fa-solid fa-location-dot"></i>
-                Santiago, Chile · Pronto en Dinamarca
-              </span>
+            <div class="about-highlight">
+              <span class="about-label" data-i18n="about.expLabel">Experience</span>
+              <span class="about-value" data-i18n="about.expValue">2+ years in pre-production environments</span>
             </div>
-          </div>
-
-          <div class="hero-card">
-            <div class="hero-photo-wrapper">
-              <img
-                src="assets/img/benjamins.png"
-                alt="Foto de Benjamín Rodríguez"
-                class="hero-photo"
-                loading="lazy"
-              />
-            </div>
-
-            <div class="hero-card-body">
-              <p class="hero-role" data-i18n="hero.role">
-                DevOps • Monitoreo • Automatización
-              </p>
-
-              <ul class="hero-tags">
-                <li data-i18n="hero.tag1">Kubernetes</li>
-                <li data-i18n="hero.tag2">Docker</li>
-                <li data-i18n="hero.tag3">Python</li>
-                <li data-i18n="hero.tag4">Checkmk</li>
-              </ul>
-
-              <div class="hero-social">
-                <a
-                  href="https://www.linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="LinkedIn"
-                >
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-                <a
-                  href="https://github.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="GitHub"
-                >
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Instagram"
-                >
-                  <i class="fa-brands fa-instagram"></i>
-                </a>
-              </div>
+            <div class="about-highlight">
+              <span class="about-label" data-i18n="about.interestsLabel">Interests</span>
+              <span class="about-value" data-i18n="about.interestsValue">Cloud, SRE, monitoring, automation</span>
             </div>
           </div>
         </div>
-      </section>
-      <!-- ========== SOBRE MÍ ========== -->
-      <section id="sobre-mi" class="section section-alt">
-        <div class="container about-inner">
-          <div class="about-text">
-            <h2 data-i18n="about.title">Sobre mí</h2>
 
-            <p data-i18n="about.p1">
-              Soy Ingeniero Civil Informático con experiencia práctica en
-              DevOps, automatización y administración de entornos Linux.
-              Disfruto trabajar en plataformas donde la confiabilidad, la
-              observabilidad y la mejora continua son fundamentales.
-            </p>
+        <aside class="about-card">
+          <h3 data-i18n="about.cardTitle">How I can add value to your team</h3>
+          <ul class="about-list">
+            <li data-i18n="about.cardItem1">
+              <i class="fa-solid fa-check"></i>
+              Operation and monitoring of Linux infrastructures in critical environments.
+            </li>
+            <li data-i18n="about.cardItem2">
+              <i class="fa-solid fa-check"></i>
+              Design of CI/CD pipelines and automation of repetitive tasks using Python.
+            </li>
+            <li data-i18n="about.cardItem3">
+              <i class="fa-solid fa-check"></i>
+              Clear communication, documentation and collaboration with distributed teams.
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
 
-            <p data-i18n="about.p2">
-              He participado en proyectos que van desde la automatización de
-              flujos empresariales con Python, hasta la
-              gestión de despliegues en Azure y OpenShift, y la operación de
-              entornos on-premise pre-productivos. Me siento cómodo trabajando
-              en inglés y estoy especialmente interesado en aportar en equipos
-              de trabajo en Dinamarca.
-            </p>
+    <!-- ========== EXPERIENCIA ========== -->
+    <section id="experiencia" class="section">
+      <div class="container">
+        <h2 data-i18n="experience.title">Experience</h2>
 
-            <div class="about-highlights">
-              <div class="about-highlight">
-                <span
-                  class="about-label"
-                  data-i18n="about.roleLabel"
-                  >Rol actual</span
-                >
-                <span
-                  class="about-value"
-                  data-i18n="about.roleValue"
-                  >DevOps / Systems Engineer</span
-                >
-              </div>
-              <div class="about-highlight">
-                <span
-                  class="about-label"
-                  data-i18n="about.expLabel"
-                  >Experiencia</span
-                >
-                <span
-                  class="about-value"
-                  data-i18n="about.expValue"
-                  >+2 años en entornos pre-productivos</span
-                >
-              </div>
-              <div class="about-highlight">
-                <span
-                  class="about-label"
-                  data-i18n="about.interestsLabel"
-                  >Intereses</span
-                >
-                <span
-                  class="about-value"
-                  data-i18n="about.interestsValue"
-                  >Cloud, SRE, monitoreo, automatización</span
-                >
-              </div>
+        <div class="timeline">
+          <!-- Rol actual -->
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 data-i18n="experience.job1Title">
+                DevOps / Systems Engineer
+              </h3>
+              <p class="timeline-meta" data-i18n="experience.job1Place">
+                IBM Chile · 2024 – Present
+              </p>
+              <p data-i18n="experience.job1Desc">
+                Administration of on-premise pre-production and production environments based on Linux (RHEL), ensuring
+                availability and stability of critical services. Designed and implemented a monitoring platform with
+                Checkmk from scratch, currently supervising more than 30 environments.
+              </p>
+              <ul class="timeline-tags">
+                <li>RHEL 7/8</li>
+                <li>Checkmk</li>
+                <li>Monitoring</li>
+                <li>Incident management</li>
+              </ul>
             </div>
-          </div>
+          </article>
 
-          <aside class="about-card">
-            <h3 data-i18n="about.cardTitle">Cómo puedo aportar en tu equipo</h3>
-            <ul class="about-list">
-              <li data-i18n="about.cardItem1">
-                <i class="fa-solid fa-check"></i>
-                Operación y monitoreo de infraestructuras Linux en entornos
-                críticos.
-              </li>
-              <li data-i18n="about.cardItem2">
-                <i class="fa-solid fa-check"></i>
-                Diseño de pipelines de CI/CD y automatización de tareas
-                repetitivas con Python.
-              </li>
-              <li data-i18n="about.cardItem3">
-                <i class="fa-solid fa-check"></i>
-                Comunicación clara, documentación y trabajo colaborativo con
-                equipos distribuidos.
+          <!-- Proyecto despliegues Cloud/On-Prem -->
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 data-i18n="experience.job2Title">
+                DevOps Engineer – Cloud & On-Prem Deployments
+              </h3>
+              <p class="timeline-meta" data-i18n="experience.job2Place">
+                IBM Chile · Azure & OpenShift project
+              </p>
+              <p data-i18n="experience.job2Desc">
+                Worked on a project focused on managing deployments to Azure and OpenShift environments. Built
+                infrastructure as code with ARM templates, defined build and release pipelines and troubleshooted CI/CD
+                deployment issues.
+              </p>
+              <ul class="timeline-tags">
+                <li>Azure</li>
+                <li>ARM Templates</li>
+                <li>CI/CD</li>
+                <li>OpenShift</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Proyecto automatización tickets -->
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 data-i18n="experience.job3Title">
+                Automation Developer – Ticket integration
+              </h3>
+              <p class="timeline-meta" data-i18n="experience.job3Place">
+                IBM Chile · Python & Azure Boards project
+              </p>
+              <p data-i18n="experience.job3Desc">
+                Developed a solution to automate ticket synchronization between the client's ITSM platform and Azure
+                Boards, using object-oriented Python and SOLID principles, integrating several APIs and handling errors
+                and logging robustly.
+              </p>
+              <ul class="timeline-tags">
+                <li>Python</li>
+                <li>OOP &amp; SOLID</li>
+                <li>Azure Boards</li>
+                <li>API integration</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 data-i18n="skills.title">Tech Stack</h2>
+
+        <div class="skills-grid">
+          <div class="skills-group">
+            <h3 data-i18n="skills.group1Title">DevOps &amp; Cloud</h3>
+            <ul>
+              <li data-i18n="skills.group1Item1">Kubernetes · Docker</li>
+              <li data-i18n="skills.group1Item2">CI/CD · Azure DevOps</li>
+              <li data-i18n="skills.group1Item3">
+                Monitoring and observability
               </li>
             </ul>
-          </aside>
-        </div>
-      </section>
+          </div>
 
-      <!-- ========== EXPERIENCIA ========== -->
-      <section id="experiencia" class="section">
-        <div class="container">
-          <h2 data-i18n="experience.title">Experiencia</h2>
+          <div class="skills-group">
+            <h3 data-i18n="skills.group2Title">Backend &amp; Scripting</h3>
+            <ul>
+              <li data-i18n="skills.group2Item1">Python</li>
+              <li data-i18n="skills.group2Item2">Bash scripting</li>
+              <li data-i18n="skills.group2Item3">APIs REST</li>
+            </ul>
+          </div>
 
-          <div class="timeline">
-            <!-- Rol actual -->
-            <article class="timeline-item">
-              <div class="timeline-dot"></div>
-              <div class="timeline-content">
-                <h3 data-i18n="experience.job1Title">
-                  DevOps / Systems Engineer
-                </h3>
-                <p class="timeline-meta" data-i18n="experience.job1Place">
-                  IBM Chile · 2024 – Actualidad
-                </p>
-                <p data-i18n="experience.job1Desc">
-                  Administración de entornos on-premise pro-productivos y
-                  productivos basados en Linux (RHEL), asegurando disponibilidad
-                  y estabilidad de servicios críticos. Diseño e implementación
-                  desde cero de un sistema de monitoreo con Checkmk que
-                  supervisa más de 30 entornos.
-                </p>
-                <ul class="timeline-tags">
-                  <li>RHEL 7/8</li>
-                  <li>Checkmk</li>
-                  <li>Monitoring</li>
-                  <li>Incident management</li>
-                </ul>
-              </div>
-            </article>
+          <div class="skills-group">
+            <h3 data-i18n="skills.group3Title">Infrastructure</h3>
+            <ul>
+              <li data-i18n="skills.group3Item1">Linux (RHEL)</li>
+              <li data-i18n="skills.group3Item2">
+                Application servers
+              </li>
+              <li data-i18n="skills.group3Item3">
+                On-premise environments &amp; Cloud
+              </li>
+            </ul>
+          </div>
 
-            <!-- Proyecto despliegues Cloud/On-Prem -->
-            <article class="timeline-item">
-              <div class="timeline-dot"></div>
-              <div class="timeline-content">
-                <h3 data-i18n="experience.job2Title">
-                  DevOps Engineer – Despliegues Cloud &amp; On-Premise
-                </h3>
-                <p class="timeline-meta" data-i18n="experience.job2Place">
-                  IBM Chile · Proyecto Azure &amp; OpenShift
-                </p>
-                <p data-i18n="experience.job2Desc">
-                  Participación en un proyecto centrado en la gestión de
-                  despliegues hacia entornos Azure y OpenShift. Creación de
-                  infraestructura como código con ARM Templates, definición de
-                  pipelines de build y release, y resolución de errores en
-                  despliegues CI/CD.
-                </p>
-                <ul class="timeline-tags">
-                  <li>Azure</li>
-                  <li>ARM Templates</li>
-                  <li>CI/CD</li>
-                  <li>OpenShift</li>
-                </ul>
-              </div>
-            </article>
-
-            <!-- Proyecto automatización tickets -->
-            <article class="timeline-item">
-              <div class="timeline-dot"></div>
-              <div class="timeline-content">
-                <h3 data-i18n="experience.job3Title">
-                  Automation Developer – Integración de tickets
-                </h3>
-                <p class="timeline-meta" data-i18n="experience.job3Place">
-                  IBM Chile · Proyecto Python &amp; Azure Boards
-                </p>
-                <p data-i18n="experience.job3Desc">
-                  Desarrollo de una solución para automatizar la sincronización
-                  de tickets entre la plataforma del cliente y Azure Boards,
-                  aplicando programación orientada a objetos y principios SOLID
-                  en Python, integrando múltiples APIs y manejando errores y
-                  logging de forma robusta.
-                </p>
-                <ul class="timeline-tags">
-                  <li>Python</li>
-                  <li>OOP &amp; SOLID</li>
-                  <li>Azure Boards</li>
-                  <li>API integration</li>
-                </ul>
-              </div>
-            </article>
+          <div class="skills-group">
+            <h3 data-i18n="skills.group4Title">Tools</h3>
+            <ul>
+              <li data-i18n="skills.group4Item1">Checkmk</li>
+              <li data-i18n="skills.group4Item2">Git · GitHub</li>
+              <li data-i18n="skills.group4Item3">n8n, VS Code and more</li>
+            </ul>
           </div>
         </div>
-      </section>
-      <!-- ========== SKILLS ========== -->
-      <section id="skills" class="section section-alt">
-        <div class="container">
-          <h2 data-i18n="skills.title">Tech Stack</h2>
+      </div>
+    </section>
 
-          <div class="skills-grid">
-            <div class="skills-group">
-              <h3 data-i18n="skills.group1Title">DevOps &amp; Cloud</h3>
-              <ul>
-                <li data-i18n="skills.group1Item1">Kubernetes · Docker</li>
-                <li data-i18n="skills.group1Item2">CI/CD · Azure DevOps</li>
-                <li data-i18n="skills.group1Item3">
-                  Monitoring and observability
-                </li>
+    <!-- ========== PORTFOLIO ========== -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2 data-i18n="portfolio.title">Portfolio</h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/img/bitcoin.png" alt="Captura de Bitcoin Page" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3 data-i18n="portfolio.project1Title">Bitcoin Page</h3>
+              <p data-i18n="portfolio.project1Desc">
+                Landing page informativa sobre Bitcoin, enfocada en diseño
+                limpio, estructura clara y maquetación responsive.
+              </p>
+              <ul class="project-tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Responsive</li>
               </ul>
             </div>
+          </article>
 
-            <div class="skills-group">
-              <h3 data-i18n="skills.group2Title">Backend &amp; Scripting</h3>
-              <ul>
-                <li data-i18n="skills.group2Item1">Python</li>
-                <li data-i18n="skills.group2Item2">Bash scripting</li>
-                <li data-i18n="skills.group2Item3">APIs REST</li>
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/img/task_manager.png" alt="Captura de Task Manager" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3 data-i18n="portfolio.project2Title">Task Manager</h3>
+              <p data-i18n="portfolio.project2Desc">
+                Aplicación sencilla para gestionar tareas, utilizada para
+                practicar interacción en frontend, estados y componentes.
+              </p>
+              <ul class="project-tags">
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
               </ul>
             </div>
-
-            <div class="skills-group">
-              <h3 data-i18n="skills.group3Title">Infrastructure</h3>
-              <ul>
-                <li data-i18n="skills.group3Item1">Linux (RHEL)</li>
-                <li data-i18n="skills.group3Item2">
-                  Application servers
-                </li>
-                <li data-i18n="skills.group3Item3">
-                  On-premise environments &amp; Cloud
-                </li>
-              </ul>
-            </div>
-
-            <div class="skills-group">
-              <h3 data-i18n="skills.group4Title">Tools</h3>
-              <ul>
-                <li data-i18n="skills.group4Item1">Checkmk</li>
-                <li data-i18n="skills.group4Item2">Git · GitHub</li>
-                <li data-i18n="skills.group4Item3">n8n, VS Code and more</li>
-              </ul>
-            </div>
-          </div>
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- ========== PORTFOLIO ========== -->
-      <section id="portfolio" class="section">
-        <div class="container">
-          <h2 data-i18n="portfolio.title">Portfolio</h2>
-
-          <div class="projects-grid">
-            <article class="project-card">
-              <div class="project-thumb">
-                <img
-                  src="assets/img/bitcoin.png"
-                  alt="Captura de Bitcoin Page"
-                  loading="lazy"
-                />
-              </div>
-              <div class="project-body">
-                <h3 data-i18n="portfolio.project1Title">Bitcoin Page</h3>
-                <p data-i18n="portfolio.project1Desc">
-                  Landing page informativa sobre Bitcoin, enfocada en diseño
-                  limpio, estructura clara y maquetación responsive.
-                </p>
-                <ul class="project-tags">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Responsive</li>
-                </ul>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-thumb">
-                <img
-                  src="assets/img/task_manager.png"
-                  alt="Captura de Task Manager"
-                  loading="lazy"
-                />
-              </div>
-              <div class="project-body">
-                <h3 data-i18n="portfolio.project2Title">Task Manager</h3>
-                <p data-i18n="portfolio.project2Desc">
-                  Aplicación sencilla para gestionar tareas, utilizada para
-                  practicar interacción en frontend, estados y componentes.
-                </p>
-                <ul class="project-tags">
-                  <li>JavaScript</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                </ul>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- ========== CURSOS ========== -->
-<!--      <section id="cursos" class="section section-alt">
+    <!-- ========== CURSOS ========== -->
+    <!--      <section id="cursos" class="section section-alt">
         <div class="container">
           <h2 data-i18n="courses.title">Cursos &amp; formación</h2>
 
@@ -570,58 +461,47 @@
         </div>
       </section>
       -->
-    </main>
+  </main>
 
-    <!-- ========== FOOTER ========== -->
-    <footer id="contacto" class="site-footer">
-      <div class="container footer-inner">
-        <div class="footer-main">
-          <h2 data-i18n="footer.title">¿Hablamos?</h2>
-          <p data-i18n="footer.text">
-            Si quieres conversar sobre oportunidades, proyectos o simplemente
-            explorar cómo podría aportar en tu equipo, puedes escribirme directamente:
-          </p>
-          <a
-            href="mailto:tu.correo@ejemplo.com"
-            class="btn btn-primary"
-            data-i18n="footer.button"
-          >
-            <i class="fa-solid fa-envelope"></i>
-            Enviarme un correo
-          </a>
-        </div>
-
-        <div class="footer-meta">
-          <p data-i18n="footer.meta">
-            Benjamín Rodríguez · DevOps Engineer &amp; Computer Science
-            Engineer
-          </p>
-          <div class="footer-social">
-            <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </div>
-          <p class="footer-copy">
-            © <span id="year"></span>
-            <span data-i18n="footer.copy">
-              Benjamín Rodríguez. Todos los derechos reservados.
-            </span>
-          </p>
-        </div>
+  <!-- ========== FOOTER ========== -->
+  <footer id="contacto" class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-main">
+        <h2 data-i18n="footer.title">Shall we talk?</h2>
+        <p data-i18n="footer.text">
+          If you would like to discuss opportunities, projects or how I could contribute to your team, feel free to
+          email me:
+        </p>
+        <a href="mailto:tu.correo@ejemplo.com" class="btn btn-primary" data-i18n="footer.button">
+          <i class="fa-solid fa-envelope"></i>
+          Send me an email
+        </a>
       </div>
 
-      <script src="js/main.js"></script>
-    </footer>
-  </body>
+      <div class="footer-meta">
+        <p data-i18n="footer.meta">
+          Benjamín Rodríguez · DevOps Engineer &amp; Computer Science
+          Engineer
+        </p>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <p class="footer-copy">
+          © <span id="year"></span>
+          <span data-i18n="footer.copy">
+            Benjamín Rodríguez. All rights reserved.
+          </span>
+        </p>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </footer>
+</body>
+
 </html>
