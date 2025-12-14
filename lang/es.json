@@ -42,19 +42,25 @@
   },
   "experience": {
     "title": "Experiencia",
-    "job1Title": "DevOps / Systems Engineer",
-    "job1Place": "IBM Chile · 2024 – Actualidad",
-    "job1Desc": "Administración de entornos on-premise pro-productivos y productivos basados en Linux (RHEL), asegurando disponibilidad y estabilidad de servicios críticos. Diseño e implementación desde cero de un sistema de monitoreo con Checkmk que supervisa más de 30 entornos.",
-    "job2Title": "DevOps Engineer – Despliegues Cloud & On-Premise",
-    "job2Place": "IBM Chile · Proyecto Azure & OpenShift",
-    "job2Desc": "Participación en un proyecto centrado en la gestión de despliegues hacia entornos Azure y OpenShift. Creación de infraestructura como código con ARM Templates, definición de pipelines de build y release, y resolución de errores en despliegues CI/CD.",
-    "job3Title": "Automation Developer – Integración de tickets",
-    "job3Place": "IBM Chile · Proyecto Python & Azure Boards",
-    "job3Desc": "Desarrollo de una solución para automatizar la sincronización de tickets entre la plataforma del cliente y Azure Boards, aplicando programación orientada a objetos y principios SOLID en Python, integrando múltiples APIs y manejando errores y logging de forma robusta."
+    "job1Title": "DevOps / Ingeniero de Sistemas",
+    "job1Place": "IBM Chile · Enero 2025 – Actualidad",
+    "job1Desc": "Administración de entornos on-premise de preproducción y producción basados en Linux (RHEL), asegurando la disponibilidad y estabilidad de servicios críticos. Diseño e implementación de una plataforma de monitoreo con Checkmk desde cero, supervisando actualmente más de 30 entornos.",
+    "job2Title": "DevOps Engineer – Despliegues Cloud y On-Prem",
+    "job2Place": "IBM Chile · Julio 2024 – Enero 2025",
+    "job2Desc": "Trabajo en un proyecto enfocado en la gestión de despliegues hacia entornos Azure y OpenShift. Implementación de infraestructura como código mediante plantillas ARM, definición de pipelines de build y release, y resolución de problemas en procesos CI/CD.",
+    "job3Title": "Desarrollador de Automatización – Integración de Tickets",
+    "job3Place": "IBM Chile · Enero 2024 – Julio 2024",
+    "job3Desc": "Desarrollo de una solución para automatizar la sincronización de tickets entre la plataforma ITSM del cliente y Azure Boards. Implementación utilizando Python orientado a objetos y principios SOLID, integrando múltiples APIs con manejo robusto de errores y logging."
   },
-  "skills": { "...": "..." },
-  "portfolio": { "...": "..." },
-  "courses": { "...": "..." },
+  "skills": {
+    "...": "..."
+  },
+  "portfolio": {
+    "...": "..."
+  },
+  "courses": {
+    "...": "..."
+  },
   "footer": {
     "title": "¿Hablamos?",
     "text": "Si quieres conversar sobre oportunidades, proyectos o simplemente explorar cómo podría aportar en tu equipo, puedes escribirme directamente:",

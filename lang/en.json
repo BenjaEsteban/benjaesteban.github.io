@@ -43,18 +43,24 @@
   "experience": {
     "title": "Experience",
     "job1Title": "DevOps / Systems Engineer",
-    "job1Place": "IBM Chile · 2024 – Present",
+    "job1Place": "IBM Chile · January 2025 – Present",
     "job1Desc": "Administration of on-premise pre-production and production environments based on Linux (RHEL), ensuring availability and stability of critical services. Designed and implemented a monitoring platform with Checkmk from scratch, currently supervising more than 30 environments.",
     "job2Title": "DevOps Engineer – Cloud & On-Prem Deployments",
-    "job2Place": "IBM Chile · Azure & OpenShift project",
-    "job2Desc": "Worked on a project focused on managing deployments to Azure and OpenShift environments. Built infrastructure as code with ARM templates, defined build and release pipelines and troubleshooted CI/CD deployment issues.",
-    "job3Title": "Automation Developer – Ticket integration",
-    "job3Place": "IBM Chile · Python & Azure Boards project",
-    "job3Desc": "Developed a solution to automate ticket synchronization between the client's ITSM platform and Azure Boards, using object-oriented Python and SOLID principles, integrating several APIs and handling errors and logging robustly."
+    "job2Place": "IBM Chile · July 2024 – January 2025",
+    "job2Desc": "Worked on a project focused on managing deployments to Azure and OpenShift environments. Built infrastructure as code using ARM templates, defined build and release pipelines, and troubleshot CI/CD deployment issues across cloud and on-premise platforms.",
+    "job3Title": "Automation Developer – Ticket Integration",
+    "job3Place": "IBM Chile · January 2024 – July 2024",
+    "job3Desc": "Developed an automation solution to synchronize tickets between the client’s ITSM platform and Azure Boards. Implemented the solution using object-oriented Python and SOLID principles, integrating multiple APIs with robust error handling and logging."
   },
-  "skills": { "...": "..." },
-  "portfolio": { "...": "..." },
-  "courses": { "...": "..." },
+  "skills": {
+    "...": "..."
+  },
+  "portfolio": {
+    "...": "..."
+  },
+  "courses": {
+    "...": "..."
+  },
   "footer": {
     "title": "Shall we talk?",
     "text": "If you would like to discuss opportunities, projects or how I could contribute to your team, feel free to email me:",
