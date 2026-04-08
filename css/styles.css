@@ -75,11 +75,9 @@ a {
 
 .section-alt {
   padding: 80px 0;
-  background: linear-gradient(
-    180deg,
-    rgba(1, 81, 152, 0.02),
-    rgba(1, 81, 152, 0.03)
-  );
+  background: linear-gradient(180deg,
+      rgba(1, 81, 152, 0.02),
+      rgba(1, 81, 152, 0.03));
 }
 
 .section h2 {
@@ -187,11 +185,9 @@ a {
   width: 34px;
   height: 34px;
   border-radius: 12px;
-  background: linear-gradient(
-    135deg,
-    var(--color-primary-soft),
-    var(--color-primary)
-  );
+  background: linear-gradient(135deg,
+      var(--color-primary-soft),
+      var(--color-primary));
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -238,11 +234,9 @@ a {
   width: 0;
   height: 2px;
   border-radius: 999px;
-  background: linear-gradient(
-    90deg,
-    var(--color-primary),
-    var(--color-primary-soft)
-  );
+  background: linear-gradient(90deg,
+      var(--color-primary),
+      var(--color-primary-soft));
   transition: width var(--transition-fast);
 }
 
@@ -407,11 +401,9 @@ a {
 
 /* Tarjeta hero derecha */
 .hero-card {
-  background: radial-gradient(
-      circle at top left,
+  background: radial-gradient(circle at top left,
       rgba(81, 175, 241, 0.12),
-      transparent 55%
-    ),
+      transparent 55%),
     var(--color-surface);
   border-radius: 32px;
   box-shadow: var(--shadow-soft);
@@ -509,7 +501,7 @@ a {
   align-items: flex-start;
 }
 
-.about-text p + p {
+.about-text p+p {
   margin-top: 0.9rem;
 }
 
@@ -557,7 +549,7 @@ a {
   padding: 0;
 }
 
-.about-list li + li {
+.about-list li+li {
   margin-top: 0.6rem;
 }
 
@@ -582,11 +574,9 @@ a {
   top: 4px;
   bottom: 4px;
   width: 2px;
-  background: linear-gradient(
-    to bottom,
-    rgba(1, 81, 152, 0.15),
-    rgba(1, 81, 152, 0.5)
-  );
+  background: linear-gradient(to bottom,
+      rgba(1, 81, 152, 0.15),
+      rgba(1, 81, 152, 0.5));
 }
 
 .timeline-item {
@@ -684,7 +674,8 @@ a {
 .project-thumb img {
   width: 100%;
   height: 210px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: var(--color-bg);
   display: block;
 }
 

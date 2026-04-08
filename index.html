@@ -76,11 +76,11 @@
               Portfolio
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#cursos" class="nav-link" data-i18n="nav.courses">
               Courses
             </a>
-          </li>
+          </li> -->
         </ul>
       </nav>
 
@@ -159,13 +159,15 @@
             </ul>
 
             <div class="hero-social">
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/benjamin-rodriguez-valenzuela" target="_blank"
+                rel="noopener noreferrer" aria-label="LinkedIn">
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/BenjaEsteban" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <i class="fa-brands fa-github"></i>
               </a>
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <a href="https://www.instagram.com/benja_3steban" target="_blank" rel="noopener noreferrer"
+                aria-label="Instagram">
                 <i class="fa-brands fa-instagram"></i>
               </a>
             </div>
@@ -226,13 +228,13 @@
       </div>
     </section>
 
-    <!-- ========== EXPERIENCIA ========== -->
+    <!-- ========== EXPERIENCE ========== -->
     <section id="experiencia" class="section">
       <div class="container">
         <h2 data-i18n="experience.title">Experience</h2>
 
         <div class="timeline">
-          <!-- Rol actual -->
+          <!-- Current role -->
           <article class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
@@ -240,7 +242,7 @@
                 DevOps / Systems Engineer
               </h3>
               <p class="timeline-meta" data-i18n="experience.job1Place">
-                IBM Chile · 2024 – Present
+                IBM Chile · January 2025 – Present
               </p>
               <p data-i18n="experience.job1Desc">
                 Administration of on-premise pre-production and production environments based on Linux (RHEL), ensuring
@@ -256,7 +258,7 @@
             </div>
           </article>
 
-          <!-- Proyecto despliegues Cloud/On-Prem -->
+          <!-- Cloud / OpenShift project -->
           <article class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
@@ -264,12 +266,12 @@
                 DevOps Engineer – Cloud & On-Prem Deployments
               </h3>
               <p class="timeline-meta" data-i18n="experience.job2Place">
-                IBM Chile · Azure & OpenShift project
+                IBM Chile · July 2024 – January 2025
               </p>
               <p data-i18n="experience.job2Desc">
                 Worked on a project focused on managing deployments to Azure and OpenShift environments. Built
-                infrastructure as code with ARM templates, defined build and release pipelines and troubleshooted CI/CD
-                deployment issues.
+                infrastructure as code using ARM templates, defined build and release pipelines, and troubleshot CI/CD
+                deployment issues across cloud and on-premise platforms.
               </p>
               <ul class="timeline-tags">
                 <li>Azure</li>
@@ -280,20 +282,20 @@
             </div>
           </article>
 
-          <!-- Proyecto automatización tickets -->
+          <!-- Python automation project -->
           <article class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
               <h3 data-i18n="experience.job3Title">
-                Automation Developer – Ticket integration
+                Automation Developer – Ticket Integration
               </h3>
               <p class="timeline-meta" data-i18n="experience.job3Place">
-                IBM Chile · Python & Azure Boards project
+                IBM Chile · January 2024 – July 2024
               </p>
               <p data-i18n="experience.job3Desc">
-                Developed a solution to automate ticket synchronization between the client's ITSM platform and Azure
-                Boards, using object-oriented Python and SOLID principles, integrating several APIs and handling errors
-                and logging robustly.
+                Developed an automation solution to synchronize tickets between the client’s ITSM platform and Azure
+                Boards. Implemented the solution using object-oriented Python and SOLID principles, integrating multiple
+                APIs with robust error handling and logging.
               </p>
               <ul class="timeline-tags">
                 <li>Python</li>
@@ -363,38 +365,47 @@
         <h2 data-i18n="portfolio.title">Portfolio</h2>
 
         <div class="projects-grid">
+          <!-- Project 1: Personal Finance Manager -->
           <article class="project-card">
             <div class="project-thumb">
-              <img src="assets/img/bitcoin.png" alt="Captura de Bitcoin Page" loading="lazy" />
+              <img src="assets/img/finance_ai.png" alt="Personal finance management system" loading="lazy" />
             </div>
             <div class="project-body">
-              <h3 data-i18n="portfolio.project1Title">Bitcoin Page</h3>
+              <h3 data-i18n="portfolio.project1Title">Personal Finance Manager</h3>
               <p data-i18n="portfolio.project1Desc">
-                Landing page informativa sobre Bitcoin, enfocada en diseño
-                limpio, estructura clara y maquetación responsive.
+                A personal finance system that automatically reviews incoming emails
+                to detect bank transactions such as payments, transfers, or purchases.
+                Detected transactions are saved in a spreadsheet, giving users a
+                clear overview of their income and expenses across multiple bank
+                accounts without manual effort.
               </p>
               <ul class="project-tags">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Responsive</li>
+                <li>Automation</li>
+                <li>Personal Finance</li>
+                <li>Cloud</li>
+                <li>AI</li>
               </ul>
             </div>
           </article>
 
+          <!-- Project 2: AI Chat for Education -->
           <article class="project-card">
             <div class="project-thumb">
-              <img src="assets/img/task_manager.png" alt="Captura de Task Manager" loading="lazy" />
+              <img src="assets/img/edtech_chat.png" alt="AI chat for an education platform" loading="lazy" />
             </div>
             <div class="project-body">
-              <h3 data-i18n="portfolio.project2Title">Task Manager</h3>
+              <h3 data-i18n="portfolio.project2Title">AI Chat for Education Platform</h3>
               <p data-i18n="portfolio.project2Desc">
-                Aplicación sencilla para gestionar tareas, utilizada para
-                practicar interacción en frontend, estados y componentes.
+                An AI-powered chat system for an online education platform. The chat
+                answers student questions based only on the specific course or
+                learning category, ensuring focused and relevant responses while
+                also supporting basic platform-related questions.
               </p>
               <ul class="project-tags">
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
+                <li>Artificial Intelligence</li>
+                <li>Education</li>
+                <li>Chat System</li>
+                <li>Cloud</li>
               </ul>
             </div>
           </article>
@@ -484,10 +495,10 @@
           Engineer
         </p>
         <div class="footer-social">
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/benjamin-rodriguez-valenzuela" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/BenjaEsteban" target="_blank" rel="noopener noreferrer">
             <i class="fa-brands fa-github"></i>
           </a>
         </div>
