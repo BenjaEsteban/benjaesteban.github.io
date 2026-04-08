@@ -18,7 +18,7 @@
     "btnCv": "Descargar CV",
     "btnProjects": "Ver proyectos",
     "available": "Disponible para oportunidades",
-    "location": "Santiago, Chile · Pronto en Dinamarca",
+    "location": "Chile · Dinamarca",
     "role": "DevOps • Monitoreo • Automatización",
     "tag1": "Kubernetes",
     "tag2": "Docker",
@@ -52,9 +52,15 @@
     "job3Place": "IBM Chile · Proyecto Python & Azure Boards",
     "job3Desc": "Desarrollo de una solución para automatizar la sincronización de tickets entre la plataforma del cliente y Azure Boards, aplicando programación orientada a objetos y principios SOLID en Python, integrando múltiples APIs y manejando errores y logging de forma robusta."
   },
-  "skills": { "...": "..." },
-  "portfolio": { "...": "..." },
-  "courses": { "...": "..." },
+  "skills": {
+    "...": "..."
+  },
+  "portfolio": {
+    "...": "..."
+  },
+  "courses": {
+    "...": "..."
+  },
   "footer": {
     "title": "¿Hablamos?",
     "text": "Si quieres conversar sobre oportunidades, proyectos o simplemente explorar cómo podría aportar en tu equipo, puedes escribirme directamente:",
