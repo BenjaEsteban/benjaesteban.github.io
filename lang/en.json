@@ -18,7 +18,7 @@
     "btnCv": "Download CV",
     "btnProjects": "View projects",
     "available": "Open to new opportunities",
-    "location": "Santiago, Chile · Coming soon to Denmark",
+    "location": "Chile · Denmark",
     "role": "DevOps • Monitoring • Automation",
     "tag1": "Kubernetes",
     "tag2": "Docker",
@@ -51,6 +51,15 @@
     "job3Title": "Automation Developer – Ticket Integration",
     "job3Place": "IBM Chile · January 2024 – July 2024",
     "job3Desc": "Developed an automation solution to synchronize tickets between the client’s ITSM platform and Azure Boards. Implemented the solution using object-oriented Python and SOLID principles, integrating multiple APIs with robust error handling and logging."
+  },
+  "skills": {
+    "...": "..."
+  },
+  "portfolio": {
+    "...": "..."
+  },
+  "courses": {
+    "...": "..."
   },
   "skills": {
     "...": "..."
